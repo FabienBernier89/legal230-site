@@ -1,0 +1,5 @@
+# Aperçu / preview du site Legal 230 hébergé sur GitHub Pages.
+# Indexation interdite : le site officiel est https://legal230.com
+# (évite tout contenu dupliqué pouvant nuire au référencement du vrai site).
+User-agent: *
+Disallow: /
