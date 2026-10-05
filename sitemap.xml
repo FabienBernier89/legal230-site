@@ -169,13 +169,19 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://legal230.com/abreviations-juridiques-avantages-et-inconvenients/</loc>
+    <loc>https://legal230.com/acte-de-vente-et-promesse-de-vente/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/acte-de-vente-et-promesse-de-vente/</loc>
+    <loc>https://legal230.com/agence-de-traduction-juridique-3/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/agence-de-traduction-juridique-et-tao/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -199,7 +205,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/assurez-le-succes-de-vos-arbitrages-internationaux/</loc>
+    <loc>https://legal230.com/appels-doffres-internationaux-et-traduction-juridique/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/arbitrages-internationaux-la-precision-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -229,7 +241,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/certification-des-traducteurs-juridiques/</loc>
+    <loc>https://legal230.com/certifications-des-traducteurs-juridiques/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -271,25 +283,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/comment-nous-accompagnons-les-notaires/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://legal230.com/comment-traduire-une-audition-de-temoin/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/comprendre-les-complexites-du-droit-immobilier/</loc>
+    <loc>https://legal230.com/commissaires-de-justice-et-la-traduction-juridique/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/confidentialite-et-agence-de-traduction-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://legal230.com/confidentialite-et-traduction-juridique/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/contrat-dexploitation-traduction/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -307,7 +325,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/documents-juridiques/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/droit-commercial-international/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/enjeux-traduction-juridique/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/etude-de-cas/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/expertise-en-traduction-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -325,12 +367,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/faire-appel-a-une-agence-de-traduction-juridique/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://legal230.com/faire-appel-traducteur-assermente/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -343,19 +379,31 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/ia-en-traduction-juridique/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/initier-votre-projet-de-traduction/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/interpretariat-a-distance/</loc>
+    <loc>https://legal230.com/intelligence-artificielle-pour-la-traduction-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/interpretation-juridique-la-precision-legale/</loc>
+    <loc>https://legal230.com/interpretation-juridique-a-distance/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/interpretation-juridique-la-precision-est-essentielle/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -373,19 +421,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/la-certification-et-lassermentation-des-traductions-garantir-lauthenticite-de-vos-documents-juridiques/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/la-confidentialite-en-agence-de-traduction-juridique/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/la-legalisation-des-documents-juridiques/</loc>
+    <loc>https://legal230.com/la-legalisation-de-documents-juridiques/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -409,12 +445,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/la-traduction-de-vos-documents-en-droit-des-societes/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://legal230.com/la-traduction-de-vos-echanges-de-mails/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -428,6 +458,12 @@
   </url>
   <url>
     <loc>https://legal230.com/la-traduction-de-vos-statuts-doit-etre-irreprochable/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/la-traduction-des-accords-de-confidentialite/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -469,13 +505,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/la-traduction-en-droit-des-contrats/</loc>
+    <loc>https://legal230.com/la-traduction-en-droit-social-un-enjeu-cle/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/la-traduction-en-droit-social-un-enjeu-cle/</loc>
+    <loc>https://legal230.com/la-traduction-juridique-dans-le-domaine-de-la-propriete-intellectuelle/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -511,31 +547,25 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/la-traduction-juridique-en-droit-des-contrats/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/la-traduction-juridique-en-droit-immobilier/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/le-droit-commercial-international-un-guide-crucial-pour-les-entreprises-en-developpement/</loc>
+    <loc>https://legal230.com/le-role-crucial-de-la-traduction-transactions-immobilieres-internationales/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/le-lexique-de-traduction-un-allie-precieux-pour-les-traducteurs-juridiques/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/le-role-crucial-de-la-traduction-juridique-dans-les-transactions-immobilieres-internationales/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/le-role-crucial-des-agences-de-traduction-juridique/</loc>
+    <loc>https://legal230.com/le-role-dune-agence-de-traduction-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -589,12 +619,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/legal-230-et-la-traduction-en-droit-des-contrats/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://legal230.com/legal-230-etait-a-la-juris-cup/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -631,6 +655,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/legal-230-garantit-la-certification-et-assermentation-de-vos-traductions/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/legal-230-x-juris-run-2024/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -649,13 +679,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/legalisation-de-documents-juridiques/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/legalisation-document-juridique-et-traduction/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/legislation-des-documents-aupres-des-mae/</loc>
+    <loc>https://legal230.com/legalisation-documents-juridiques-internationaux/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -691,19 +727,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/les-apports-de-l-intelligence-artificielle-dans-le-monde-du-droit/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://legal230.com/les-bonnes-pratiques-en-traduction/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/les-competences-cles-dun-traducteur-juridique/</loc>
+    <loc>https://legal230.com/les-competences-dun-traducteur-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -715,19 +745,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/les-defis-de-traduction-commissaires-de-justice/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://legal230.com/les-documents-notaries-les-plus-couramment-traduits/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/les-enjeux-de-la-traduction-juridique-dans-le-domaine-de-limmobilier/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -739,13 +757,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/les-regles-de-la-traduction-certifiee/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/les-specificites-de-la-traduction-de-contrats/</loc>
+    <loc>https://legal230.com/les-notaires-et-la-traduction-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -757,7 +769,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/lia-et-la-tao-lavenir-des-agences-de-traduction/</loc>
+    <loc>https://legal230.com/lexique-de-traduction/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -769,13 +781,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/limpact-de-lintelligence-artificielle-sur-lindustrie-de-la-traduction/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/limportance-croissante-de-la-traduction-juridique-dans-le-domaine-de-la-propriete-intellectuelle/</loc>
+    <loc>https://legal230.com/limpact-de-lintelligence-artificielle-dans-la-traduction/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -787,7 +793,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/limportance-de-la-traduction-en-droit-commercial/</loc>
+    <loc>https://legal230.com/lintelligence-artificielle-accessible-aux-professionnels-du-droit/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -817,13 +823,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/naviguer-dans-la-legalisation-des-documents-juridiques-comment-legal-230-vous-facilite-la-tache/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/notre-outil-dintelligence-artificielle-alan/</loc>
+    <loc>https://legal230.com/naviguer-dans-la-legalisation-des-documents-juridiques/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -883,18 +883,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/pourquoi-la-traduction-des-accords-de-confidentialite-ne-tolere-aucune-approximation/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/propriete-intellectuelle/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://legal230.com/qu-est-ce-que-la-traduction-certifiee/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -902,12 +890,6 @@
   </url>
   <url>
     <loc>https://legal230.com/quand-faut-il-faire-appel-a-une-agence-de-traduction-juridique/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/quels-enjeux-pour-la-traduction-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -943,13 +925,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/relecture-traduction-juridique/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/remporter-des-appels-doffres-internationaux/</loc>
+    <loc>https://legal230.com/relecture-de-la-traduction-juridique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -997,13 +973,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/technologies-de-lia-en-traduction-juridique-une-revolution-par-legal-230/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/termes-definis-et-majuscules-les-bonnes-pratiques/</loc>
+    <loc>https://legal230.com/termes-specifiques/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1027,13 +997,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/traduction-appel-doffre-les-sept-erreurs-a-eviter/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/traduction-assermentee-vs-traduction-libre/</loc>
+    <loc>https://legal230.com/traduction-certifiee/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1051,7 +1015,19 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/traduction-de-clauses-darbitrage-cci-paris-vs-lcia-londres/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/traduction-de-contrat-de-franchise-un-enjeu-strategique-pour-votre-developpement-international/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-de-contrat-de-franchise-un-enjeu-strategique/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1141,19 +1117,55 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/traduction-juridique-article/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://legal230.com/traduction-juridique-automatiser-le-quotidien-securiser-lessentiel/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/traduction-juridique-certifiee/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-combien-ca-coute-vraiment-en-2026/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-dappels-doffres-internationaux/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-dappels-doffres-securiser-vos-candidatures-internationales/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-de-documents-notaries/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/traduction-juridique-de-levee-de-fonds/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-de-memoires/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-de-statuts-de-societe/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1171,7 +1183,85 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/traduction-juridique-des-baux-commerciaux/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-du-droit-immobilier/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/traduction-juridique-dun-contrat-de-distribution/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-durgence-un-service-legal-230/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-arbitrage-international/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-contentieux-international-7-erreurs-qui-font-perdre-des-procedures/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-droit-commercial-securiser-vos-contrats-et-relations-daffaires/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-droit-des-contrats-2/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-droit-des-contrats/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-droit-des-societes/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-droit-fiscal-international/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-droit-immobilier/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-immigration-internationale/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-en-propriete-intellectuelle-2/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1183,7 +1273,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/traduction-juridique-en-urgence/</loc>
+    <loc>https://legal230.com/traduction-juridique-en-succession-internationale/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-et-conformite/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1195,7 +1291,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/traduction-juridique-pour-les-notaires/</loc>
+    <loc>https://legal230.com/traduction-juridique-et-protection-de-lenfant/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://legal230.com/traduction-juridique-pactes-associes/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1208,12 +1310,6 @@
   </url>
   <url>
     <loc>https://legal230.com/traduction-saisie-internationale/</loc>
-    <lastmod>2026-06-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://legal230.com/traduction-vos-documents-dimmigration-internationale/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -1273,6 +1369,12 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://legal230.com/traduire-une-resolution-de-litiges/</loc>
+    <lastmod>2026-06-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://legal230.com/traduire-une-sentence-arbitrale/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -1303,7 +1405,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://legal230.com/vos-traductions-en-droit-fiscal-international/</loc>
+    <loc>https://legal230.com/usage-des-abreviations-juridiques/</loc>
     <lastmod>2026-06-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
