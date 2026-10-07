@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Traduction des décisions administratives · Legal 230</title>
-<meta name="description" content="La traduction juridique des décisions administratives est un levier clé à l'international. Précision, droit public, experts : Legal 230 vous accompagne.">
+<title>Traduction de Décisions administratives · Legal 230</title>
+<meta name="description" content="Traduction de vos décisions administratives par nos traducteurs experts juridiques : 230+ langues, double relecture et confidentialité ISO 27001.">
 <meta name="author" content="Legal 230">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="theme-color" content="#0F3144">
 <link rel="canonical" href="https://legal230.com/la-traduction-des-decisions-administratives/">
 <link rel="alternate" hreflang="fr" href="https://legal230.com/la-traduction-des-decisions-administratives/">
 <link rel="alternate" hreflang="x-default" href="https://legal230.com/la-traduction-des-decisions-administratives/">
-<meta property="og:type" content="article"><meta property="og:site_name" content="Legal 230"><meta property="og:title" content="Traduction des décisions administratives · Legal 230"><meta property="og:description" content="La traduction juridique des décisions administratives est un levier clé à l'international. Précision, droit public, experts : Legal 230 vous accompagne."><meta property="og:url" content="https://legal230.com/la-traduction-des-decisions-administratives/"><meta property="og:image" content="https://legal230.com/assets/og-legal230.jpg">
-<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Traduction des décisions administratives · Legal 230"><meta name="twitter:description" content="La traduction juridique des décisions administratives est un levier clé à l'international. Précision, droit public, experts : Legal 230 vous accompagne."><meta name="twitter:image" content="https://legal230.com/assets/og-legal230.jpg">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Legal 230"><meta property="og:title" content="Traduction de Décisions administratives · Legal 230"><meta property="og:description" content="Traduction de vos décisions administratives par nos traducteurs experts juridiques : 230+ langues, double relecture et confidentialité ISO 27001."><meta property="og:url" content="https://legal230.com/la-traduction-des-decisions-administratives/"><meta property="og:image" content="https://legal230.com/assets/og-legal230.jpg">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Traduction de Décisions administratives · Legal 230"><meta name="twitter:description" content="Traduction de vos décisions administratives par nos traducteurs experts juridiques : 230+ langues, double relecture et confidentialité ISO 27001."><meta name="twitter:image" content="https://legal230.com/assets/og-legal230.jpg">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -235,15 +235,30 @@ button{font-family:inherit;cursor:pointer;border:none}
 .sec-head h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:16px}
 .sec-head p{color:var(--muted);font-size:16.5px;line-height:1.6}
 
-/* ============ PILLARS (humain) ============ */
-.pillars{padding:90px 0 82px;background:var(--white)}
-.pillars-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.pillar{background:#fff;border:1px solid var(--line);border-radius:8px;padding:34px 28px;transition:all .3s ease;display:flex;flex-direction:column}
-.pillar:hover{transform:translateY(-4px);box-shadow:0 18px 38px -24px rgba(15,49,68,.20);border-color:#D6E2DC}
-.pillar .ic{width:52px;height:52px;border-radius:7px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;margin-bottom:22px}
-.pillar .ic svg{width:25px;height:25px;stroke-width:1.7}
-.pillar h3{font-size:19px;color:var(--ink);margin-bottom:11px;margin-top:auto}
-.pillar p{font-size:14.5px;color:var(--muted);line-height:1.62}
+/* ============ PILLARS (humain) : layout editorial asymetrique ============ */
+.pillars{padding:94px 0 86px;background:var(--white)}
+.pillars-inner{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.2fr);gap:70px;align-items:start}
+.pillars-head{position:sticky;top:98px}
+.pillars-head .kicker{margin-bottom:16px}
+.pillars-head h2{font-size:clamp(27px,2.9vw,38px);margin-bottom:18px;line-height:1.14;letter-spacing:-.02em}
+.pillars-head p{color:var(--muted);font-size:16px;line-height:1.66;max-width:430px;margin-bottom:26px}
+.pillars-link{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--emerald-d)}
+.pillars-link svg{width:16px;height:16px;transition:transform .2s}
+.pillars-link:hover svg{transform:translateX(4px)}
+.pillar-list{display:flex;flex-direction:column}
+.pillar-row{display:grid;grid-template-columns:50px 1fr;gap:22px;padding:28px 0;border-top:1px solid var(--line);position:relative;transition:transform .25s ease}
+.pillar-row:first-child{border-top:none;padding-top:4px}
+.pillar-row::before{content:"";position:absolute;left:-26px;top:30px;bottom:28px;width:2px;background:var(--emerald);border-radius:2px;transform:scaleY(0);transform-origin:top;transition:transform .3s ease}
+.pillar-row:hover::before{transform:scaleY(1)}
+.pillar-row:hover{transform:translateX(4px)}
+.pillar-row .ri{width:50px;height:50px;border-radius:50%;border:1.5px solid rgba(47,157,111,.42);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .25s ease}
+.pillar-row:hover .ri{background:var(--emerald-pale);border-color:var(--emerald)}
+.pillar-row .ri svg{width:23px;height:23px;stroke-width:1.7}
+.pillar-row h3{font-size:18.5px;color:var(--ink);margin-bottom:8px;transition:color .2s}
+.pillar-row:hover h3{color:var(--emerald-d)}
+.pillar-row p{font-size:14.5px;color:var(--muted);line-height:1.62}
+@media(max-width:860px){.pillars-inner{grid-template-columns:1fr;gap:36px}.pillars-head{position:static}.pillars-head p{max-width:none}.pillar-row::before{display:none}.pillar-row:hover{transform:none}}
+@media(max-width:560px){.pillar-row{grid-template-columns:1fr;gap:14px;padding:24px 0}}
 
 /* ============ EXPERTS (marine) ============ */
 .experts{padding:90px 0;color:#fff;position:relative;overflow:hidden;
@@ -310,7 +325,7 @@ button{font-family:inherit;cursor:pointer;border:none}
 .profiles{padding:90px 0;background:#fff}
 .prof-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .prof{background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px 26px;transition:all .3s ease;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(8,29,40,.05)}
-.prof:hover{transform:translateY(-4px);box-shadow:0 18px 40px -26px rgba(15,49,68,.18);border-color:#D6E2DC}
+.prof:hover{transform:translateY(-4px);box-shadow:0 18px 38px -24px rgba(15,49,68,.18);border-color:#D6E2DC}
 .prof .ic{width:48px;height:48px;border-radius:10px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
 .prof .ic svg{width:23px;height:23px;stroke-width:1.7}
 .prof h3{font-size:17.5px;color:var(--ink);margin-bottom:10px;min-height:2.5em}
@@ -362,7 +377,7 @@ button{font-family:inherit;cursor:pointer;border:none}
 .tf-mention .lk b{font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;color:var(--ink);letter-spacing:-.01em}
 .tf-mention .arr{width:15px;height:15px;color:var(--emerald-d)}
 .testi{flex:0 0 340px;scroll-snap-align:start;background:#fff;border:1px solid var(--line);border-radius:8px;padding:34px;display:flex;flex-direction:column;transition:all .3s ease}
-.testi:hover{transform:translateY(-4px);box-shadow:0 30px 60px -30px rgba(15,49,68,.18)}
+.testi:hover{transform:translateY(-4px);box-shadow:0 18px 40px -26px rgba(15,49,68,.18)}
 .testi .stars{color:var(--gold);font-size:15px;letter-spacing:3px;margin-bottom:18px}
 .testi blockquote{font-family:'Roboto Slab',serif;font-size:16px;color:var(--ink);line-height:1.6;font-weight:400;margin-bottom:24px;flex-grow:1}
 .testi .author{display:flex;align-items:center;gap:14px;padding-top:18px;border-top:1px solid var(--line)}
@@ -449,7 +464,7 @@ button{font-family:inherit;cursor:pointer;border:none}
 .certs{padding:88px 0;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%)}
 .certs-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .cert{background:#fff;border:1px solid var(--line);border-radius:8px;padding:30px 26px;transition:all .3s ease}
-.cert:hover{transform:translateY(-4px);box-shadow:0 30px 60px -30px rgba(15,49,68,.18);border-color:#D6E2DC}
+.cert:hover{transform:translateY(-4px);box-shadow:0 18px 40px -26px rgba(15,49,68,.18);border-color:#D6E2DC}
 .cert .ic{width:50px;height:50px;border-radius:6px;background:var(--gold-pale);color:var(--gold-ink);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
 .cert .ic svg{width:24px;height:24px;stroke-width:1.7}
 .cert h3{font-size:16.5px;color:var(--ink);margin-bottom:9px}
@@ -566,67 +581,38 @@ button{font-family:inherit;cursor:pointer;border:none}
 .crumbs ol{list-style:none;display:flex;flex-wrap:wrap;align-items:center;gap:7px;font-size:13px;color:var(--muted)}
 .crumbs a{color:var(--muted);transition:color .2s}.crumbs a:hover{color:var(--emerald-d)}
 .crumbs .sep{color:#bcc8ce}.crumbs [aria-current]{color:var(--ink);font-weight:600}
-.art-hero{padding:54px 0 16px}.art-hero .container{max-width:820px}
-.art-cat{display:inline-block;background:var(--emerald-pale);color:var(--emerald-d);font-size:12px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;padding:6px 14px;border-radius:20px;margin-bottom:18px}
-.art-hero h1{font-size:34px;line-height:1.18;margin-bottom:18px}
-.art-hero .lead{font-size:18px;color:var(--text);line-height:1.6}
-.art-meta{margin-top:18px;font-size:13px;color:var(--muted);display:flex;gap:16px;align-items:center}
-.art-vis{max-width:820px;margin:26px auto 0;aspect-ratio:21/7;border-radius:16px;display:flex;align-items:center;justify-content:center;color:#fff}
-.art-vis svg{width:60px;height:60px;opacity:.9}
-.article{max-width:760px;margin:0 auto;padding:44px 0 20px}
-.article h2{font-size:23px;margin:38px 0 14px;line-height:1.25}
-.article h3{font-size:17px;margin:26px 0 10px;color:var(--ink)}
-.article p{font-size:16.5px;color:var(--text);line-height:1.8;margin-bottom:16px}
-.article ul{margin:14px 0 18px 2px;list-style:none}
-.article ul li{position:relative;padding-left:26px;font-size:16.5px;color:var(--text);line-height:1.7;margin-bottom:10px}
-.article ul li::before{content:"";position:absolute;left:5px;top:12px;width:7px;height:7px;border-radius:50%;background:var(--emerald)}
-.article b{color:var(--ink)}
-.art-cta{max-width:760px;margin:18px auto 0;background:var(--navy-grad);border-radius:16px;padding:38px 40px;color:#fff;text-align:center}
-.art-cta h3{color:#fff;font-size:21px;margin-bottom:10px}.art-cta p{color:rgba(255,255,255,.85);margin-bottom:22px}
-.art-related{max-width:760px;margin:54px auto 0;border-top:1px solid var(--line);padding-top:28px}
-.art-related h4{font-family:'Roboto Slab',serif;font-size:14px;letter-spacing:.04em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:16px}
-.art-related .rl{display:flex;flex-wrap:wrap;gap:12px}
-.art-related a{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--emerald-d);background:var(--bg);border:1px solid var(--line);padding:10px 16px;border-radius:8px;transition:all .2s}
-.art-related a:hover{border-color:var(--emerald);transform:translateY(-1px)}.art-related a svg{width:15px;height:15px}
-.art-faq{max-width:760px;margin:48px auto 0;border-top:1px solid var(--line);padding-top:34px}
-.art-faq h2{font-size:23px;margin:0 0 20px}
-.faq-item{border:1px solid var(--line);border-radius:10px;margin-bottom:12px;background:#fff;overflow:hidden}
-.faq-item summary{cursor:pointer;padding:16px 20px;font-family:'Roboto Slab',serif;font-weight:600;color:var(--ink);font-size:16px;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px}
-.faq-item summary::-webkit-details-marker{display:none}
-.faq-item summary::after{content:"+";color:var(--emerald);font-size:23px;font-weight:400;flex-shrink:0;line-height:1}
-.faq-item[open] summary::after{content:"-"}
-.faq-item p{padding:2px 20px 18px;font-size:15.5px;color:var(--text);line-height:1.72;margin:0}
-.art-date{font-size:13px;color:var(--muted);display:inline-flex;align-items:center;gap:7px;margin-top:6px}
-.art-date svg{width:14px;height:14px;color:var(--emerald)}
-.art-toc{background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:22px 26px;margin:0 0 34px}
-.art-toc .toc-h{font-family:'Roboto Slab',serif;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:12px}
-.art-toc ol{margin:0;padding-left:20px;font-size:14.5px;color:var(--text);columns:2;column-gap:32px}
-.art-toc li{margin-bottom:7px;break-inside:avoid}.art-toc a{color:var(--text)}.art-toc a:hover{color:var(--emerald-d)}
-.article .inlink{color:var(--emerald-d);font-weight:600;border-bottom:1px solid var(--emerald-pale);transition:border-color .2s}
-.article .inlink:hover{border-color:var(--emerald)}
-.article h2{scroll-margin-top:90px}
-.rel-arts{max-width:760px;margin:46px auto 0;border-top:1px solid var(--line);padding-top:30px}
-.rel-arts h4{font-family:'Roboto Slab',serif;font-size:14px;letter-spacing:.04em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:16px}
-.rel-arts .ra-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.rel-arts a{display:flex;align-items:center;gap:10px;background:var(--bg);border:1px solid var(--line);border-radius:9px;padding:13px 16px;font-size:14px;font-weight:500;color:var(--ink);line-height:1.4;transition:all .2s}
-.rel-arts a:hover{border-color:var(--emerald);color:var(--emerald-d);transform:translateY(-1px)}
-.rel-arts a svg{width:15px;height:15px;color:var(--emerald);flex-shrink:0}
-.art-byline{display:flex;align-items:center;gap:11px;margin-top:18px}
-.art-byline .av{width:42px;height:42px;border-radius:50%;background:var(--navy-grad);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Roboto Slab',serif;font-weight:600;font-size:14px;flex-shrink:0;letter-spacing:.5px}
-.art-byline .bm{display:flex;flex-direction:column;line-height:1.35}
-.art-byline .bn{font-weight:600;color:var(--ink);font-size:14.5px}
-.art-byline .br{font-size:12.5px;color:var(--muted)}
-.art-author{max-width:760px;margin:46px auto 0;background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:24px 26px;display:flex;gap:18px;align-items:flex-start}
-.art-author .av{width:56px;height:56px;border-radius:50%;background:var(--navy-grad);color:#fff;display:flex;align-items:center;justify-content:center;font-family:'Roboto Slab',serif;font-weight:600;font-size:19px;flex-shrink:0;letter-spacing:.5px}
-.art-author .anm{font-family:'Roboto Slab',serif;font-weight:600;color:var(--ink);font-size:16px}
-.art-author .arole{font-size:12px;color:var(--gold-ink);font-weight:600;margin-bottom:9px;text-transform:uppercase;letter-spacing:.04em}
-.art-author p{font-size:14px;color:var(--text);line-height:1.62;margin:0}
-@media(max-width:680px){.art-hero h1{font-size:27px}.art-toc ol{columns:1}.rel-arts .ra-grid{grid-template-columns:1fr}}
+.lede{max-width:780px;margin:0 auto;text-align:center;font-size:16.5px;color:var(--text);line-height:1.72}
+.docgrid{grid-template-columns:repeat(3,1fr)}.docgrid .dom span{white-space:normal}
+.doc-note{text-align:center;margin-top:30px;font-size:13.5px;color:var(--muted)}.doc-note a{color:var(--emerald-d);font-weight:600}
+.pillar h3{margin-top:0}.btn-line{white-space:nowrap}
+.doc-content{padding:72px 0 8px;background:#fff}
+.doc-content .container{max-width:820px}
+.doc-content h2{font-family:'Roboto Slab',serif;font-weight:700;font-size:clamp(23px,2.5vw,29px);color:var(--navy);line-height:1.25;letter-spacing:-.01em;margin:44px 0 15px}
+.doc-content h2:first-child,.doc-content>*:first-child{margin-top:0}
+.doc-content h3{font-family:'Roboto Slab',serif;font-size:18px;color:var(--ink);margin:28px 0 10px}
+.doc-content p{font-size:16.5px;color:var(--text);line-height:1.8;margin:0 0 16px}
+.doc-content ul{margin:14px 0 22px;padding:0;list-style:none}
+.doc-content li{position:relative;padding-left:27px;font-size:16.5px;color:var(--text);line-height:1.75;margin-bottom:11px}
+.doc-content li::before{content:"";position:absolute;left:4px;top:11px;width:7px;height:7px;border-radius:50%;background:var(--emerald)}
+.doc-content strong,.doc-content b{color:var(--ink);font-weight:600}
+.doc-content a{color:var(--emerald-d);font-weight:600;text-decoration:none;border-bottom:1px solid rgba(39,133,93,.32)}
+.doc-content a:hover{border-bottom-color:var(--emerald-d)}
+@media(max-width:960px){.docgrid{grid-template-columns:1fr 1fr}}@media(max-width:560px){.docgrid{grid-template-columns:1fr}}
 </style><script type="application/ld+json">
-{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://legal230.com/"}, {"@type": "ListItem", "position": 2, "name": "Articles", "item": "https://legal230.com/actualites-juridique-legal-230/"}, {"@type": "ListItem", "position": 3, "name": "Comprendre la traduction des décisions administratives en droit public", "item": "https://legal230.com/la-traduction-des-decisions-administratives/"}]}, {"@type": "BlogPosting", "headline": "Comprendre la traduction des décisions administratives en droit public", "description": "La traduction juridique des décisions administratives est un levier clé à l'international. Précision, droit public, experts : Legal 230 vous accompagne.", "author": {"@type": "Person", "name": "Christelle Mandet", "jobTitle": "Head of Sales", "worksFor": {"@type": "Organization", "name": "Legal 230", "url": "https://legal230.com/"}}, "publisher": {"@type": "Organization", "name": "Legal 230", "logo": {"@type": "ImageObject", "url": "https://legal230.com/assets/og-legal230.jpg"}}, "mainEntityOfPage": "https://legal230.com/la-traduction-des-decisions-administratives/", "image": "https://legal230.com/assets/og-legal230.jpg", "inLanguage": "fr-FR", "articleSection": "Expertise", "datePublished": "2025-09-25", "dateModified": "2025-09-25", "keywords": "Comprendre la traduction des décisions administratives en droit public"}, {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Qu'est-ce qu'une décision administrative et pourquoi sa traduction est-elle importante ?", "acceptedAnswer": {"@type": "Answer", "text": "Une décision administrative est un acte pris par une autorité publique (autorisation, refus, injonction, sanction, agrément), doté d'un effet juridique direct et souvent exécutoire. Sa traduction est essentielle car, pour qu'elle soit recevable ou opposable à l'étranger, elle doit être compréhensible dans la langue de l'autorité concernée."}}, {"@type": "Question", "name": "Pourquoi confier la traduction d'une décision administrative à un traducteur spécialisé en droit public ?", "acceptedAnswer": {"@type": "Answer", "text": "Parce qu'un traducteur généraliste pourrait ignorer l'impact d'un choix terminologique, méconnaître le fonctionnement du droit administratif ou rendre de façon neutre une formulation à portée obligatoire. La traduction exige une double expertise, linguistique et juridique, notamment en droit administratif comparé."}}, {"@type": "Question", "name": "Quels risques entraîne une traduction approximative d'une décision administrative ?", "acceptedAnswer": {"@type": "Answer", "text": "Une traduction approximative ou trop littérale peut entraîner une mauvaise interprétation juridique, voire le rejet de votre demande. Devant une autorité étrangère, le document peut être jugé incomplet, non conforme ou tout simplement ignoré."}}]}]}
-</script>
-</head>
+{ "@context":"https://schema.org","@graph":[
+  {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Accueil","item":"https://legal230.com/"},{"@type":"ListItem","position":2,"name":"Droit public","item":"https://legal230.com/#domains"},{"@type":"ListItem","position":3,"name":"Décisions administratives","item":"https://legal230.com/la-traduction-des-decisions-administratives/"}]},
+  {"@type":"Service","name":"Traduction de Décisions administratives","serviceType":"Traduction juridique","provider":{"@type":"Organization","name":"Legal 230","url":"https://legal230.com/"},"areaServed":"Worldwide","availableLanguage":"Plus de 230 langues","url":"https://legal230.com/la-traduction-des-decisions-administratives/"},
+  {"@type":"FAQPage","mainEntity":[
+      { "@type":"Question","name":"Pourquoi confier la traduction de vos décisions administratives à un spécialiste ?","acceptedAnswer":{"@type":"Answer","text":"Ce type de document engage juridiquement ses parties. Une approximation sur une clause ou un terme peut en changer la portée. Nos traducteurs maîtrisent le droit public et les équivalences entre systèmes juridiques, pour une traduction fidèle au fond comme à la forme."} },
+      { "@type":"Question","name":"La traduction de vos décisions administratives peut-elle être certifiée ?","acceptedAnswer":{"@type":"Answer","text":"Oui. Selon l'usage (signature, dépôt, production en justice, autorité étrangère), nous proposons la traduction libre ou la traduction certifiée par un traducteur assermenté près une Cour d'appel, avec légalisation ou apostille si nécessaire."} },
+      { "@type":"Question","name":"Dans quelles langues traduisez-vous ?","acceptedAnswer":{"@type":"Answer","text":"Plus de 230 langues et combinaisons. Chaque projet est confié à un traducteur natif de la langue cible et expert de la matière, puis relu par un second expert."} },
+      { "@type":"Question","name":"Quel est le délai ?","acceptedAnswer":{"@type":"Answer","text":"Il dépend du volume et de la combinaison de langues. Vous recevez un devis personnalisé en 30 minutes, avec une option de traitement prioritaire pour les dossiers urgents."} },
+      { "@type":"Question","name":"Comment garantissez-vous la confidentialité ?","acceptedAnswer":{"@type":"Answer","text":"Hébergement en France, infrastructure certifiée ISO 27001, accords de confidentialité (NDA) sur demande et portail sécurisé. Vos documents ne quittent jamais un environnement maîtrisé."} }
+  ]}
+]}
+</script></head>
 <body>
+
 <header class="nav">
   <div class="container nav-inner">
     <a href="legal230-homepage.html" class="logo">LEGAL<span>230</span></a>
@@ -745,36 +731,91 @@ button{font-family:inherit;cursor:pointer;border:none}
     </div>
   </div>
 </header>
-<nav class="crumbs" aria-label="Fil d'ariane"><div class="container"><ol><li><a href="legal230-homepage.html">Accueil</a></li><li class="sep">›</li><li><a href="legal230-blog.html">Articles</a></li><li class="sep">›</li><li aria-current="page">Traduction de décisions administratives</li></ol></div></nav>
-<section class="art-hero"><div class="container">
-  <span class="art-cat">Expertise</span>
-  <h1>Comprendre la traduction des décisions administratives en droit public</h1>
-  <p class="lead">Dans le cadre d'une procédure contentieuse à l'étranger, d'un contrôle fiscal international ou d'un appel d'offre public hors de France, vous pouvez être amené à produire une décision administrative. La traduction juridique de décisions administratives est un levier juridique clé dans le traitement de vos dossiers à l'international.</p>
-  <div class="art-byline"><span class="av">CM</span><span class="bm"><span class="bn">Par Christelle Mandet</span><span class="br">Head of Sales, Legal 230 · Publié le 25 septembre 2025</span></span></div>
+
+<nav class="crumbs" aria-label="Fil d'ariane"><div class="container"><ol>
+  <li><a href="legal230-homepage.html">Accueil</a></li><li class="sep">›</li>
+  <li><a href="legal230-homepage.html#domains">Domaines d'expertise</a></li><li class="sep">›</li>
+  <li><a href="legal230-expertise-droit-public.html">Droit public</a></li><li class="sep">›</li>
+  <li aria-current="page">Décisions administratives</li>
+</ol></div></nav>
+
+<section class="hero" style="padding:62px 0 56px"><div class="container"><div class="hero-inner">
+  <span class="hero-over">Droit public · Document</span>
+  <h1>Traduction de <em>Décisions administratives</em></h1>
+  <p class="lead">Décisions administratives : un document à fort enjeu juridique en droit public. Nos traducteurs experts, souvent d'anciens juristes, traduisent vos décisions administratives dans plus de 230 langues, avec une double relecture et une terminologie fidèle.</p>
+  <div class="hero-cta"><a href="legal230-contact.html" class="btn btn-emerald">Demander un devis <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="#autres" class="btn-line">Documents liés</a></div>
+  <p class="hero-trust"><b>+1 500 traducteurs experts</b> · double relecture systématique · confidentialité ISO 27001</p>
+</div></div></section>
+
+<section class="doc-content"><div class="container">
+<p>Dans le cadre d’une procédure contentieuse à l’étranger, d’un contrôle fiscal international ou d’un appel d’offre public hors de France, vous pouvez être amené à produire une décision administrative. Mais pour qu’elle soit recevable ou opposable, encore faut-il qu’elle soit compréhensible dans la langue de l’autorité concernée. La traduction juridique de décisions administratives n’est donc pas une simple formalité linguistique : elle est un levier juridique clé dans le traitement de vos dossiers à l’international.</p>
+
+<h2><strong>Pourquoi traduire une décision administrative avec précision</strong><strong> </strong><strong>?</strong></h2>
+
+<p>Les décisions administratives sont des actes pris par une autorité publique : autorisation, refus, injonction, sanction, agrément… Elles ont un effet juridique direct, souvent exécutoire, et peuvent conditionner l’exercice de vos droits. À l’international, elles sont utilisées dans des contextes variés : litiges internationaux, recours auprès d’autorités étrangères, appels d’offres publics, demandes de reconnaissance ou d’équivalence, etc.</p>
+
+<p>Une traduction approximative ou trop littérale pourrait entraîner une mauvaise interprétation juridique, voire un rejet de votre demande. La cohérence terminologique, la fidélité au registre administratif, et la rigueur syntaxique sont donc primordiales.</p>
+
+<h2><strong>Traduire une décision administrative : un exercice de précision</strong></h2>
+
+<p>Ce type de document contient souvent :</p>
+
+<ul>
+<li>des références légales et réglementaires précises,</li>
+
+<li>des formulations normatives (ex. : « il est enjoint à… »),</li>
+
+<li>des délais de recours ou des effets juridiques explicites,</li>
+
+<li>des termes techniques du droit public.</li>
+</ul>
+
+<p>Le traducteur ne doit pas simplement comprendre le texte : il doit en restituer toutes les implications juridiques dans une autre langue et dans un autre système de droit. Cela suppose une double expertise : linguistique et juridique, notamment en droit administratif comparé.</p>
+
+<h2><strong>Un exemple concret : usage devant une autorité étrangère</strong></h2>
+
+<p>Prenons le cas d’une entreprise française qui doit faire valoir une décision préfectorale d’agrément auprès d’une autorité italienne dans le cadre d’un appel à projets public. Sans une traduction juridique fidèle et adaptée aux termes utilisés par l’administration italienne, l’agrément peut être jugé incomplet, non conforme, ou tout simplement ignoré. Dans ce contexte, une traduction spécialisée devient une condition de recevabilité.</p>
 </div></section>
-<div class="container"><div class="art-vis" style="background:linear-gradient(135deg,#0F3144,#27855d)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg></div></div>
-<section class="article"><div class="container">
-<nav class="art-toc" aria-label="Sommaire"><p class="toc-h">Sommaire</p><ol><li><a href="#pourquoi-traduire-une-d-cision-administrative-av">Pourquoi traduire une décision administrative avec précision ?</a></li><li><a href="#traduire-une-d-cision-administrative-un-exercice">Traduire une décision administrative : un exercice de précision</a></li><li><a href="#un-exemple-concret-usage-devant-une-autorit-tran">Un exemple concret : usage devant une autorité étrangère</a></li><li><a href="#pourquoi-faire-appel-un-traducteur-juridique-sp">Pourquoi faire appel à un traducteur juridique spécialisé en droit public ?</a></li><li><a href="#vous-devez-faire-traduire-une-d-cision-administr">Vous devez faire traduire une décision administrative ?</a></li></ol></nav><p>Dans le cadre d'une procédure contentieuse à l'étranger, d'un contrôle fiscal international ou d'un appel d'offre public hors de France, vous pouvez être amené à produire une décision administrative. Mais pour qu'elle soit recevable ou opposable, encore faut-il qu'elle soit compréhensible dans la langue de l'autorité concernée. La traduction juridique de décisions administratives n'est donc pas une simple formalité linguistique : elle est un levier juridique clé dans le traitement de vos dossiers à l'international.</p>
-<h2 id="pourquoi-traduire-une-d-cision-administrative-av">Pourquoi traduire une décision administrative avec précision ?</h2>
-<p>Les décisions administratives sont des actes pris par une autorité publique : autorisation, refus, injonction, sanction, agrément... Elles ont un effet juridique direct, souvent exécutoire, et peuvent conditionner l'exercice de vos droits. À l'international, elles sont utilisées dans des contextes variés : litiges internationaux, recours auprès d'autorités étrangères, appels d'offres publics, demandes de reconnaissance ou d'équivalence, etc.</p>
-<p>Une traduction approximative ou trop littérale pourrait entraîner une mauvaise <a href="legal230-service-interpretation.html" class="inlink">interprétation</a> juridique, voire un rejet de votre demande. La cohérence terminologique, la fidélité au registre administratif, et la rigueur syntaxique sont donc primordiales.</p>
-<h2 id="traduire-une-d-cision-administrative-un-exercice">Traduire une décision administrative : un exercice de précision</h2>
-<p>Ce type de document contient souvent :</p>
-<ul><li>des références légales et réglementaires précises,</li><li>des formulations normatives (ex. : « il est enjoint à... »),</li><li>des délais de recours ou des effets juridiques explicites,</li><li>des termes techniques du droit public.</li></ul>
-<p>Le traducteur ne doit pas simplement comprendre le texte : il doit en restituer toutes les implications juridiques dans une autre langue et dans un autre système de droit. Cela suppose une double expertise : linguistique et juridique, notamment en droit administratif comparé.</p>
-<h2 id="un-exemple-concret-usage-devant-une-autorit-tran">Un exemple concret : usage devant une autorité étrangère</h2>
-<p>Prenons le cas d'une entreprise française qui doit faire valoir une décision préfectorale d'agrément auprès d'une autorité italienne dans le cadre d'un appel à projets public. Sans une traduction juridique fidèle et adaptée aux termes utilisés par l'administration italienne, l'agrément peut être jugé incomplet, non conforme, ou tout simplement ignoré. Dans ce contexte, une traduction spécialisée devient une condition de recevabilité.</p>
-<h2 id="pourquoi-faire-appel-un-traducteur-juridique-sp">Pourquoi faire appel à un traducteur juridique spécialisé en droit public ?</h2>
-<p>Les enjeux liés aux décisions administratives ne laissent aucune place à l'approximation. Un traducteur généraliste pourrait ignorer l'impact d'un choix terminologique, méconnaître le fonctionnement du droit administratif, ou traduire de manière neutre ce qui, en droit, a une portée obligatoire.</p>
-<p>Chez Legal 230, les traductions de décisions administratives sont confiées à des traducteurs juridiques expérimentés, familiers des nuances du droit public, du vocabulaire administratif et des systèmes juridiques locaux.</p>
-<h2 id="vous-devez-faire-traduire-une-d-cision-administr">Vous devez faire traduire une décision administrative ?</h2>
-<p>Assurez-vous que le document traduit reflète avec exactitude son poids juridique. Que ce soit pour une procédure fiscale, un contentieux international ou un appel d'offre public, Legal 230 vous accompagne avec des traductions juridiques fiables, rédigées par des experts du droit administratif.</p>
+
+<section class="profiles" style="background:var(--bg);padding:88px 0"><div class="container">
+  <div class="sec-head"><span class="kicker">Nos prestations</span><h2>Votre document, sous toutes ses formes</h2><p>De la traduction libre à la version certifiée prête à signer.</p></div>
+  <div class="prof-grid">
+      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg></div><h3>Traduction par un expert</h3><p>Traduction fidèle par un traducteur expert de la matière, souvent d'ancien juriste.</p></article>
+      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8a5 5 0 1 0 0-10 5 5 0 0 0 0 10zM9 12.5L7 22l5-3 5 3-2-9.5"/></svg></div><h3>Traduction certifiée</h3><p>Traduction assermentée près une Cour d'appel, avec légalisation ou apostille selon l'usage.</p></article>
+      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/></svg></div><h3>Relecture &amp; post-édition</h3><p>Révision humaine de vos traductions ou sorties d'IA, prête à l'emploi.</p></article>
+      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7M21 3v6h-6"/></svg></div><h3>Mise à jour de versions</h3><p>Alignement et mise à jour de vos documents multilingues à chaque avenant.</p></article>
+  </div>
 </div></section>
-<section class="art-faq-wrap"><div class="container"><div class="art-faq"><h2>Questions fréquentes</h2><details class="faq-item"><summary>Qu'est-ce qu'une décision administrative et pourquoi sa traduction est-elle importante ?</summary><p>Une décision administrative est un acte pris par une autorité publique (autorisation, refus, injonction, sanction, agrément), doté d'un effet juridique direct et souvent exécutoire. Sa traduction est essentielle car, pour qu'elle soit recevable ou opposable à l'étranger, elle doit être compréhensible dans la langue de l'autorité concernée.</p></details><details class="faq-item"><summary>Pourquoi confier la traduction d'une décision administrative à un traducteur spécialisé en droit public ?</summary><p>Parce qu'un traducteur généraliste pourrait ignorer l'impact d'un choix terminologique, méconnaître le fonctionnement du droit administratif ou rendre de façon neutre une formulation à portée obligatoire. La traduction exige une double expertise, linguistique et juridique, notamment en droit administratif comparé.</p></details><details class="faq-item"><summary>Quels risques entraîne une traduction approximative d'une décision administrative ?</summary><p>Une traduction approximative ou trop littérale peut entraîner une mauvaise interprétation juridique, voire le rejet de votre demande. Devant une autorité étrangère, le document peut être jugé incomplet, non conforme ou tout simplement ignoré.</p></details></div></div></section>
-<section class="rel-arts-wrap"><div class="container"><div class="rel-arts"><h4>Sur le même thème</h4><div class="ra-grid"><a href="legal230-article-traduction-des-actes-administratifs-un-service-cle.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M9 13h6M9 17h4"/></svg>Traduction des actes administratifs</a><a href="legal230-document-rapports-expertise.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M9 13h6M9 17h4"/></svg>Pourquoi la traduction de vos rapports d'expertise en …</a><a href="legal230-document-appels-doffres.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M9 13h6M9 17h4"/></svg>Répondre à un appel d'offres à l'international</a></div></div></div></section>
-<section class="art-author-wrap"><div class="container"><div class="art-author"><span class="av">CM</span><div class="ab-body"><div class="anm">Christelle Mandet</div><div class="arole">Head of Sales, Legal 230</div><p>Christelle Mandet est co-fondatrice et Head of Sales de Legal 230. Elle conseille au quotidien cabinets, directions juridiques et entreprises sur leurs projets de traduction juridique.</p></div></div></div></section>
-<div class="container"><div class="art-cta"><h3>Un document juridique à traduire ?</h3><p>Recevez un devis personnalisé en 30 minutes, par des traducteurs experts de votre matière.</p><a class="btn btn-emerald" href="legal230-contact.html">Demander un devis <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div>
-<div class="container"><div class="art-related"><h4>Pour aller plus loin</h4><div class="rl"><a href="legal230-expertise-droit-des-contrats.html">Nos domaines d'expertise <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="legal230-service-traduction-libre.html">Traduction par un expert <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="legal230-service-traduction-certifiee.html">Traduction certifiée <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div></div></div>
+
+<section class="domains" id="autres" style="background:#fff;padding:88px 0"><div class="container">
+  <div class="sec-head"><span class="kicker">Maillage</span><h2>Autres documents en droit public</h2></div>
+  <div class="dom-grid docgrid">
+      <a class="dom" href="legal230-document-lois-reglementations.html"><span class="di"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg></span><span>Lois et réglementations</span></a>
+      <a class="dom" href="legal230-document-contrats-publics.html"><span class="di"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg></span><span>Contrats publics</span></a>
+      <a class="dom" href="legal230-document-avis-juridiques.html"><span class="di"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg></span><span>Avis juridiques</span></a>
+      <a class="dom" href="legal230-document-appels-doffres.html"><span class="di"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg></span><span>Appels d'offres</span></a>
+      <a class="dom" href="legal230-document-rapports-expertise.html"><span class="di"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg></span><span>Rapports d'expertise</span></a>
+  </div>
+  <p class="doc-note">Voir toute notre expertise en <a href="legal230-expertise-droit-public.html">traduction juridique du droit public</a>.</p>
+</div></section>
+
+<section class="faq"><div class="container">
+  <div class="sec-head"><span class="kicker">Questions fréquentes</span><h2>Vos questions</h2></div>
+  <div class="faq-list">
+      <details class="faq-item"><summary>Pourquoi confier la traduction de vos décisions administratives à un spécialiste ?</summary><p>Ce type de document engage juridiquement ses parties. Une approximation sur une clause ou un terme peut en changer la portée. Nos traducteurs maîtrisent le droit public et les équivalences entre systèmes juridiques, pour une traduction fidèle au fond comme à la forme.</p></details>
+      <details class="faq-item"><summary>La traduction de vos décisions administratives peut-elle être certifiée ?</summary><p>Oui. Selon l'usage (signature, dépôt, production en justice, autorité étrangère), nous proposons la traduction libre ou la traduction certifiée par un traducteur assermenté près une Cour d'appel, avec légalisation ou apostille si nécessaire.</p></details>
+      <details class="faq-item"><summary>Dans quelles langues traduisez-vous ?</summary><p>Plus de 230 langues et combinaisons. Chaque projet est confié à un traducteur natif de la langue cible et expert de la matière, puis relu par un second expert.</p></details>
+      <details class="faq-item"><summary>Quel est le délai ?</summary><p>Il dépend du volume et de la combinaison de langues. Vous recevez un devis personnalisé en 30 minutes, avec une option de traitement prioritaire pour les dossiers urgents.</p></details>
+      <details class="faq-item"><summary>Comment garantissez-vous la confidentialité ?</summary><p>Hébergement en France, infrastructure certifiée ISO 27001, accords de confidentialité (NDA) sur demande et portail sécurisé. Vos documents ne quittent jamais un environnement maîtrisé.</p></details>
+  </div>
+</div></section>
+
+<section class="final-cta"><div class="container"><div class="final-cta-inner">
+  <h2>Besoin de traduire vos décisions administratives ?</h2>
+  <p>Recevez un devis personnalisé en 30 minutes. Vos documents restent confidentiels, du premier échange à la livraison.</p>
+  <div class="final-cta-btns"><a href="legal230-contact.html" class="btn btn-emerald">Demander un devis <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a><a href="tel:+33184802120" class="btn-line"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.81.36 1.6.7 2.34a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.74-1.27a2 2 0 0 1 2.11-.45c.74.34 1.53.57 2.34.7A2 2 0 0 1 22 16.92z"/></svg> +33 1 84 80 21 20</a></div>
+</div></div></section>
+
 <footer class="footer">
   <div class="container">
     <div class="footer-grid">
@@ -845,5 +886,79 @@ button{font-family:inherit;cursor:pointer;border:none}
     </div>
   </div>
 </footer>
+
+<script>
+(function(){
+  function frmt(val, dec){
+    var s = dec > 0 ? val.toFixed(dec).replace('.', ',') : String(Math.round(val));
+    var p = s.split(',');
+    p[0] = p[0].replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+    return p.join(',');
+  }
+  function setVal(el, val){
+    var dec = parseInt(el.getAttribute('data-decimals') || '0', 10);
+    var pre = el.getAttribute('data-prefix');
+    var suf = el.getAttribute('data-suffix');
+    el.innerHTML = (pre ? '<span class="u">' + pre + '</span>' : '') + frmt(val, dec) + (suf ? '<span class="u">' + suf + '</span>' : '');
+  }
+  var nums = [].slice.call(document.querySelectorAll('.kpis .n[data-target]'));
+  if(!nums.length) return;
+  nums.forEach(function(el){ setVal(el, 0); });
+  function animate(el){
+    var target = parseFloat(el.getAttribute('data-target'));
+    var dur = 1600, start = null;
+    function step(ts){
+      if(start === null) start = ts;
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      setVal(el, target * eased);
+      if(p < 1) requestAnimationFrame(step); else setVal(el, target);
+    }
+    requestAnimationFrame(step);
+  }
+  var band = document.querySelector('.kpis');
+  if(!('IntersectionObserver' in window)){ nums.forEach(animate); return; }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ nums.forEach(animate); io.disconnect(); }
+    });
+  }, { threshold: 0.4 });
+  io.observe(band);
+})();
+</script>
+
+<script>
+(function(){
+  var burger = document.getElementById('navBurger');
+  var menu = document.getElementById('navMenu');
+  if(!burger || !menu) return;
+  function closeMenu(){
+    menu.classList.remove('open');
+    burger.classList.remove('is-open');
+    burger.setAttribute('aria-expanded','false');
+    document.body.style.overflow='';
+  }
+  burger.addEventListener('click', function(){
+    var open = menu.classList.toggle('open');
+    burger.classList.toggle('is-open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    document.body.style.overflow = open ? 'hidden' : '';
+  });
+  menu.querySelectorAll('.has-mega > .nav-link').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      if(window.matchMedia('(max-width:1024px)').matches){
+        e.preventDefault();
+        btn.parentElement.classList.toggle('open');
+      }
+    });
+  });
+  menu.querySelectorAll('a[href]').forEach(function(a){
+    a.addEventListener('click', function(){
+      if(menu.classList.contains('open')) closeMenu();
+    });
+  });
+})();
+</script>
+
 </body>
 </html>
