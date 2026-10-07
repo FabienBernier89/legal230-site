@@ -326,9 +326,9 @@ button{font-family:inherit;cursor:pointer;border:none}
 .prof-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .prof{background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px 26px;transition:all .3s ease;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(8,29,40,.05)}
 .prof:hover{transform:translateY(-4px);box-shadow:0 18px 38px -24px rgba(15,49,68,.18);border-color:#D6E2DC}
-.prof .ic{width:48px;height:48px;border-radius:10px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
-.prof .ic svg{width:23px;height:23px;stroke-width:1.7}
-.prof h3{font-size:17.5px;color:var(--ink);margin-bottom:10px;min-height:2.5em}
+.prof .hd{display:flex;align-items:center;gap:13px;margin-bottom:14px}.prof .ri{width:44px;height:44px;border-radius:50%;border:1.5px solid rgba(47,157,111,.42);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.prof .ri svg{width:21px;height:21px;stroke-width:1.7}
+.prof h3{font-size:16.5px;color:var(--ink);line-height:1.25}
 .prof p{font-size:13.5px;color:var(--muted);line-height:1.6;flex-grow:1}
 .prof .more{margin-top:18px;font-size:13px;font-weight:600;color:var(--emerald-d);display:inline-flex;align-items:center;gap:6px}
 .prof .more svg{width:15px;height:15px;transition:transform .2s}
@@ -761,10 +761,10 @@ button{font-family:inherit;cursor:pointer;border:none}
 <section class="profiles" id="contextes" style="padding:84px 0 78px"><div class="container">
   <div class="sec-head"><span class="kicker">Vos contextes</span><h2>Quand vous avez besoin d'une traduction juridique</h2></div>
   <div class="prof-grid">
-      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zM9 22V12h6v10"/></svg></div><h3>Transactions immobilières internationales</h3><p>Actes de vente et compromis pour des acquéreurs ou vendeurs étrangers.</p></article>
-      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg></div><h3>Successions internationales</h3><p>Règlements de succession et planification patrimoniale internationale.</p></article>
-      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.87"/></svg></div><h3>Contrats de mariage &amp; PACS</h3><p>Régimes matrimoniaux et conventions pour des couples binationaux.</p></article>
-      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21h12M8 18h8v-2H8zM10 16V9a2 2 0 0 1 4 0v7"/></svg></div><h3>Procurations &amp; actes authentiques</h3><p>Procurations et actes à produire ou recevoir à l'étranger.</p></article>
+      <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1zM9 22V12h6v10"/></svg></span><h3>Transactions immobilières internationales</h3></div><p>Actes de vente et compromis pour des acquéreurs ou vendeurs étrangers.</p></article>
+      <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6"/></svg></span><h3>Successions internationales</h3></div><p>Règlements de succession et planification patrimoniale internationale.</p></article>
+      <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M9 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM22 21v-2a4 4 0 0 0-3-3.87"/></svg></span><h3>Contrats de mariage &amp; PACS</h3></div><p>Régimes matrimoniaux et conventions pour des couples binationaux.</p></article>
+      <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21h12M8 18h8v-2H8zM10 16V9a2 2 0 0 1 4 0v7"/></svg></span><h3>Procurations &amp; actes authentiques</h3></div><p>Procurations et actes à produire ou recevoir à l'étranger.</p></article>
   </div>
 </div></section>
 

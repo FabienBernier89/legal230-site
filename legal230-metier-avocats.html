@@ -326,9 +326,9 @@ button{font-family:inherit;cursor:pointer;border:none}
 .prof-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .prof{background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px 26px;transition:all .3s ease;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(8,29,40,.05)}
 .prof:hover{transform:translateY(-4px);box-shadow:0 18px 38px -24px rgba(15,49,68,.18);border-color:#D6E2DC}
-.prof .ic{width:48px;height:48px;border-radius:10px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
-.prof .ic svg{width:23px;height:23px;stroke-width:1.7}
-.prof h3{font-size:17.5px;color:var(--ink);margin-bottom:10px;min-height:2.5em}
+.prof .hd{display:flex;align-items:center;gap:13px;margin-bottom:14px}.prof .ri{width:44px;height:44px;border-radius:50%;border:1.5px solid rgba(47,157,111,.42);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.prof .ri svg{width:21px;height:21px;stroke-width:1.7}
+.prof h3{font-size:16.5px;color:var(--ink);line-height:1.25}
 .prof p{font-size:13.5px;color:var(--muted);line-height:1.6;flex-grow:1}
 .prof .more{margin-top:18px;font-size:13px;font-weight:600;color:var(--emerald-d);display:inline-flex;align-items:center;gap:6px}
 .prof .more svg{width:15px;height:15px;transition:transform .2s}
@@ -761,10 +761,10 @@ button{font-family:inherit;cursor:pointer;border:none}
 <section class="profiles" id="contextes" style="padding:84px 0 78px"><div class="container">
   <div class="sec-head"><span class="kicker">Vos contextes</span><h2>Quand vous avez besoin d'une traduction juridique</h2></div>
   <div class="prof-grid">
-      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></div><h3>Contentieux international</h3><p>Conclusions, assignations et pièces de procédure à produire dans une autre langue ou devant une juridiction étrangère.</p></article>
-      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10M19 21V10M4 10h16L12 3z"/></svg></div><h3>Arbitrage</h3><p>Mémoires, sentences et pièces d'arbitrage (CCI, CIRDI…) avec une terminologie procédurale rigoureuse.</p></article>
-      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3M9 9v.01M9 13v.01M9 17v.01"/></svg></div><h3>M&amp;A &amp; due diligence</h3><p>Data rooms, contrats et statuts : de gros volumes à traduire vite, sans perte de précision.</p></article>
-      <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg></div><h3>Clients &amp; juridictions étrangères</h3><p>Avis juridiques, actes et correspondances pour vos clients internationaux et vos confrères à l'étranger.</p></article>
+      <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></span><h3>Contentieux international</h3></div><p>Conclusions, assignations et pièces de procédure à produire dans une autre langue ou devant une juridiction étrangère.</p></article>
+      <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10M19 21V10M4 10h16L12 3z"/></svg></span><h3>Arbitrage</h3></div><p>Mémoires, sentences et pièces d'arbitrage (CCI, CIRDI…) avec une terminologie procédurale rigoureuse.</p></article>
+      <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3M9 9v.01M9 13v.01M9 17v.01"/></svg></span><h3>M&amp;A &amp; due diligence</h3></div><p>Data rooms, contrats et statuts : de gros volumes à traduire vite, sans perte de précision.</p></article>
+      <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20zM2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg></span><h3>Clients &amp; juridictions étrangères</h3></div><p>Avis juridiques, actes et correspondances pour vos clients internationaux et vos confrères à l'étranger.</p></article>
   </div>
 </div></section>
 

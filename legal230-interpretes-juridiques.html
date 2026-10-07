@@ -315,9 +315,9 @@ button{font-family:inherit;cursor:pointer;border:none}
 .prof-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .prof{background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px 26px;transition:all .3s ease;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(8,29,40,.05)}
 .prof:hover{transform:translateY(-4px);box-shadow:0 18px 40px -26px rgba(15,49,68,.18);border-color:#D6E2DC}
-.prof .ic{width:48px;height:48px;border-radius:10px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
-.prof .ic svg{width:23px;height:23px;stroke-width:1.7}
-.prof h3{font-size:17.5px;color:var(--ink);margin-bottom:10px;min-height:2.5em}
+.prof .hd{display:flex;align-items:center;gap:13px;margin-bottom:14px}.prof .ri{width:44px;height:44px;border-radius:50%;border:1.5px solid rgba(47,157,111,.42);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.prof .ri svg{width:21px;height:21px;stroke-width:1.7}
+.prof h3{font-size:16.5px;color:var(--ink);line-height:1.25}
 .prof p{font-size:13.5px;color:var(--muted);line-height:1.6;flex-grow:1}
 .prof .more{margin-top:18px;font-size:13px;font-weight:600;color:var(--emerald-d);display:inline-flex;align-items:center;gap:6px}
 .prof .more svg{width:15px;height:15px;transition:transform .2s}
@@ -724,18 +724,18 @@ button{font-family:inherit;cursor:pointer;border:none}
 <section class="profiles" style="background:#fff;padding:88px 0"><div class="container">
   <div class="sec-head"><span class="kicker">Les compétences</span><h2>Plus que des linguistes : des experts du droit</h2></div>
   <div class="prof-grid">
-    <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></div><h3>Spécialisés en droit</h3><p>Diplômés et spécialisés, ils maîtrisent les systèmes juridiques et les lois du pays cible.</p></article>
-    <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg></div><h3>Plusieurs langues maîtrisées</h3><p>Une compétence confirmée dans deux langues ou plus, pour des échanges fluides.</p></article>
-    <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3zM5 10v1a7 7 0 0 0 14 0v-1M12 18v4M8 22h8"/></svg></div><h3>Concentration &amp; communication</h3><p>D'excellentes capacités d'écoute, de concentration et de restitution en temps réel.</p></article>
-    <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div><h3>Sélection rigoureuse</h3><p>Chaque interprète est testé et validé par une équipe expérimentée avant toute mission.</p></article>
+    <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></span><h3>Spécialisés en droit</h3></div><p>Diplômés et spécialisés, ils maîtrisent les systèmes juridiques et les lois du pays cible.</p></article>
+    <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg></span><h3>Plusieurs langues maîtrisées</h3></div><p>Une compétence confirmée dans deux langues ou plus, pour des échanges fluides.</p></article>
+    <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3zM5 10v1a7 7 0 0 0 14 0v-1M12 18v4M8 22h8"/></svg></span><h3>Concentration &amp; communication</h3></div><p>D'excellentes capacités d'écoute, de concentration et de restitution en temps réel.</p></article>
+    <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span><h3>Sélection rigoureuse</h3></div><p>Chaque interprète est testé et validé par une équipe expérimentée avant toute mission.</p></article>
   </div>
 </div></section>
 
 <section class="domains" id="prestations" style="background:var(--bg);padding:88px 0"><div class="container">
   <div class="sec-head"><span class="kicker">Nos prestations</span><h2>Sur site ou à distance, selon votre besoin</h2><p>Avec l'équipement et les plateformes adaptés à chaque contexte.</p></div>
   <div class="method-inner" style="display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:980px;margin:0 auto">
-    <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></div><h3>Sur site</h3><p>Interprétation simultanée, consécutive ou de liaison, avec le matériel professionnel (cabines, casques) si nécessaire.</p></article>
-    <article class="prof"><div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4M8 9l3 2-3 2zM14 9v4"/></svg></div><h3>À distance</h3><p>Via des plateformes sécurisées et spécialisées (Interprefy, KUDO, Zoom), en temps réel, partout dans le monde.</p></article>
+    <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></span><h3>Sur site</h3></div><p>Interprétation simultanée, consécutive ou de liaison, avec le matériel professionnel (cabines, casques) si nécessaire.</p></article>
+    <article class="prof"><div class="hd"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4M8 9l3 2-3 2zM14 9v4"/></svg></span><h3>À distance</h3></div><p>Via des plateformes sécurisées et spécialisées (Interprefy, KUDO, Zoom), en temps réel, partout dans le monde.</p></article>
   </div>
 </div></section>
 
