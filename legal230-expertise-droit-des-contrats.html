@@ -441,7 +441,7 @@ button{font-family:inherit;cursor:pointer;border:none}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.3fr;gap:46px;margin-bottom:44px}
 .footer .logo{margin-bottom:16px}
 .footer-about p{font-size:14px;color:var(--muted);max-width:300px;line-height:1.62}
-.footer h5{color:var(--ink);font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:18px;font-family:'Poppins',sans-serif}
+.footer .foot-h{color:var(--ink);font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;margin-bottom:18px;font-family:'Poppins',sans-serif}
 .footer ul{list-style:none}
 .footer ul li{margin-bottom:11px;font-size:14px;color:var(--muted)}
 .footer ul li a:hover{color:var(--emerald)}
@@ -585,6 +585,28 @@ button{font-family:inherit;cursor:pointer;border:none}
 .exp-substance .exp-sub-body b{color:var(--ink);font-weight:600}
 .exp-terms{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 0;padding:0;list-style:none}
 .exp-terms li{background:var(--emerald-pale);color:var(--navy);font-size:14px;font-weight:600;padding:8px 15px;border-radius:999px}
+.pillars-inner{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.2fr);gap:70px;align-items:start}
+.pillars-head{position:sticky;top:98px}
+.pillars-head .kicker{margin-bottom:16px}
+.pillars-head h2{font-size:clamp(27px,2.9vw,38px);margin-bottom:18px;line-height:1.14;letter-spacing:-.02em}
+.pillars-head p{color:var(--muted);font-size:16px;line-height:1.66;max-width:430px;margin-bottom:26px}
+.pillars-link{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--emerald-d)}
+.pillars-link svg{width:16px;height:16px;transition:transform .2s}
+.pillars-link:hover svg{transform:translateX(4px)}
+.pillar-list{display:flex;flex-direction:column}
+.pillar-row{display:grid;grid-template-columns:50px 1fr;gap:22px;padding:28px 0;border-top:1px solid var(--line);position:relative;transition:transform .25s ease}
+.pillar-row:first-child{border-top:none;padding-top:4px}
+.pillar-row::before{content:"";position:absolute;left:-26px;top:30px;bottom:28px;width:2px;background:var(--emerald);border-radius:2px;transform:scaleY(0);transform-origin:top;transition:transform .3s ease}
+.pillar-row:hover::before{transform:scaleY(1)}
+.pillar-row:hover{transform:translateX(4px)}
+.pillar-row .ri{width:50px;height:50px;border-radius:50%;border:1.5px solid rgba(47,157,111,.42);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .25s ease}
+.pillar-row:hover .ri{background:var(--emerald-pale);border-color:var(--emerald)}
+.pillar-row .ri svg{width:23px;height:23px;stroke-width:1.7}
+.pillar-row h3{font-size:18.5px;color:var(--ink);margin-bottom:8px;transition:color .2s}
+.pillar-row:hover h3{color:var(--emerald-d)}
+.pillar-row p{font-size:14.5px;color:var(--muted);line-height:1.62}
+@media(max-width:860px){.pillars-inner{grid-template-columns:1fr;gap:36px}.pillars-head{position:static}.pillars-head p{max-width:none}.pillar-row::before{display:none}.pillar-row:hover{transform:none}}
+@media(max-width:560px){.pillar-row{grid-template-columns:1fr;gap:14px;padding:24px 0}}
 </style>
 <style>
 /* ===== Spécifique page expertise ===== */
@@ -843,27 +865,18 @@ button{font-family:inherit;cursor:pointer;border:none}
 <!-- POURQUOI -->
 <section class="pillars" style="padding:84px 0 78px">
   <div class="container">
-    <div class="sec-head">
-      <span class="kicker">Pourquoi une traduction spécialisée</span>
-      <h2>Le droit des contrats ne tolère pas l'à-peu-près</h2>
-    </div>
-    <p class="lede" style="margin-bottom:50px">En matière contractuelle, chaque terme a une conséquence juridique. La traduction d'un contrat n'est pas un exercice linguistique : c'est un travail de juriste-traducteur, qui transpose l'intention des parties d'un système de droit à un autre sans en altérer la portée.</p>
-    <div class="pillars-grid">
-      <article class="pillar">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
-        <h3>Sécurité juridique</h3>
-        <p>Une clause de responsabilité, une condition suspensive ou une définition mal rendue peut modifier la portée d'un engagement. Nos traducteurs préservent l'intention juridique d'origine.</p>
-      </article>
-      <article class="pillar">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2M9 21h6M12 3v18M8 7h8"/></svg></div>
-        <h3>Terminologie maîtrisée</h3>
-        <p>Équivalences entre common law et droit civil, vocabulaire contractuel précis : chaque terme est traduit dans le sens du droit applicable, jamais mot à mot.</p>
-      </article>
-      <article class="pillar">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></div>
-        <h3>Double relecture experte</h3>
-        <p>Chaque contrat est traduit par un expert de la matière puis relu par un second, pour éliminer toute ambiguïté avant signature.</p>
-      </article>
+    <div class="pillars-inner">
+      <div class="pillars-head">
+        <span class="kicker">Pourquoi une traduction spécialisée</span>
+        <h2>Le droit des contrats ne tolère pas l'à-peu-près</h2>
+        <p>En matière contractuelle, chaque terme a une conséquence juridique. La traduction d'un contrat n'est pas un exercice linguistique : c'est un travail de juriste-traducteur, qui transpose l'intention des parties d'un système de droit à un autre sans en altérer la portée.</p>
+        <a class="pillars-link" href="#documents">Voir les documents traduits <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg></a>
+      </div>
+      <div class="pillar-list">
+        <div class="pillar-row"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><div class="rt"><h3>Sécurité juridique</h3><p>Une clause de responsabilité, une condition suspensive ou une définition mal rendue peut modifier la portée d'un engagement. Nos traducteurs préservent l'intention juridique d'origine.</p></div></div>
+        <div class="pillar-row"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2M9 21h6M12 3v18M8 7h8"/></svg></span><div class="rt"><h3>Terminologie maîtrisée</h3><p>Équivalences entre common law et droit civil, vocabulaire contractuel précis : chaque terme est traduit dans le sens du droit applicable, jamais mot à mot.</p></div></div>
+        <div class="pillar-row"><span class="ri"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg></span><div class="rt"><h3>Double relecture experte</h3><p>Chaque contrat est traduit par un expert de la matière puis relu par un second, pour éliminer toute ambiguïté avant signature.</p></div></div>
+      </div>
     </div>
   </div>
 </section>
@@ -1070,7 +1083,7 @@ button{font-family:inherit;cursor:pointer;border:none}
         </div>
       </div>
       <div>
-        <h5>Services</h5>
+        <p class="foot-h">Services</p>
         <ul>
           <li><a href="legal230-service-traduction-libre.html">Traduction libre</a></li>
           <li><a href="legal230-service-traduction-certifiee.html">Traduction assermentée</a></li>
@@ -1080,7 +1093,7 @@ button{font-family:inherit;cursor:pointer;border:none}
         </ul>
       </div>
       <div>
-        <h5>Expertises</h5>
+        <p class="foot-h">Expertises</p>
         <ul>
           <li><a href="legal230-expertise-arbitrage-international.html">Arbitrage international</a></li>
           <li><a href="legal230-expertise-droit-des-societes.html">Droit des sociétés</a></li>
@@ -1090,7 +1103,7 @@ button{font-family:inherit;cursor:pointer;border:none}
         </ul>
       </div>
       <div>
-        <h5>Contact</h5>
+        <p class="foot-h">Contact</p>
         <ul class="footer-contact">
           <li>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
