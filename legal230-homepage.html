@@ -176,6 +176,10 @@ button{font-family:inherit;cursor:pointer;border:none}
 .hero-rating .div{width:1px;height:34px;background:rgba(255,255,255,.16)}
 .hero-trust{font-size:15.5px;color:rgba(255,255,255,.80);font-weight:500}
 .hero-trust b{color:#fff;font-weight:600}
+.hero.hero-home h1{font-size:clamp(36px,4.6vw,58px);letter-spacing:-.03em;line-height:1.06}
+.hero-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:30px}
+.hero-chips .hc{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:999px;padding:8px 15px;font-size:13.5px;font-weight:500;color:rgba(255,255,255,.9)}
+.hero-chips .hc svg{width:15px;height:15px;stroke-width:2;color:#9fe6c4;flex-shrink:0}
 /* KPIS : chiffres clés, couleurs inversées (fond blanc, chiffres marine) */
 .kpis{background:#fff;border-bottom:1px solid var(--line);padding:36px 0}
 .kpis-grid{display:grid;grid-template-columns:repeat(4,1fr)}
@@ -791,13 +795,13 @@ button{font-family:inherit;cursor:pointer;border:none}
 </header>
 
 <!-- HERO -->
-<section class="hero">
+<section class="hero hero-home">
   <div class="container">
     <div class="hero-inner">
 
-      <span class="hero-over">Traduction &amp; interprétation 100 % juridiques</span>
-      <h1>En droit, chaque terme <em>engage</em>.</h1>
-      <p class="lead">Depuis plus de 15 ans, Legal 230 confie vos documents juridiques à des traducteurs experts de votre matière, souvent d'anciens juristes et avocats. Plus de 230 langues, chaque traduction relue par un second expert.</p>
+      <span class="hero-over">1ère agence de traduction juridique en Europe</span>
+      <h1>La traduction juridique, confiée à de <em>vrais experts du droit</em>.</h1>
+      <p class="lead">Vos contrats, actes et pièces traduits par des traducteurs experts de votre matière, anciens juristes ou avocats, dans plus de 230 langues, avec une relecture humaine.</p>
 
       <div class="hero-cta">
         <a href="legal230-contact.html" class="btn btn-emerald">
@@ -807,7 +811,12 @@ button{font-family:inherit;cursor:pointer;border:none}
         <a href="#method" class="btn-line">Parler à un expert</a>
       </div>
 
-      <p class="hero-trust"><b>+2 500 professionnels du droit</b> nous confient leurs dossiers les plus sensibles</p>
+      <div class="hero-chips">
+        <span class="hc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>+15 ans d'expertise juridique</span>
+        <span class="hc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>230+ langues</span>
+        <span class="hc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Relecture humaine</span>
+        <span class="hc"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>ISO 27001 · France</span>
+      </div>
 
     </div>
 
