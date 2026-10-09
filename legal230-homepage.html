@@ -109,16 +109,23 @@ button{font-family:inherit;cursor:pointer;border:none}
 .mega{position:absolute;left:0;right:0;top:100%;z-index:120;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);box-shadow:0 40px 80px -50px rgba(15,49,68,.5);opacity:0;visibility:hidden;transform:translateY(6px);transition:opacity .2s,transform .2s,visibility .2s}
 .has-mega:hover>.mega{opacity:1;visibility:visible;transform:translateY(0)}
 .mega::before{content:"";position:absolute;top:-14px;left:0;right:0;height:14px}
-.mega-inner{max-width:1200px;margin:0 auto;padding:28px 34px;display:grid;grid-template-columns:1fr 300px;gap:34px;align-items:stretch}
+.mega-inner{max-width:1280px;margin:0 auto;padding:32px 40px;display:grid;grid-template-columns:1fr 244px;gap:40px;align-items:stretch}
 .mega-main{min-width:0}
-.mega-h{display:block;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:13px}
-.mega-grid{display:grid;gap:2px 12px}
+.mega-h{display:block;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:16px}
+.mega-grid{display:grid;gap:7px 18px}
 .mega-grid.mg-2{grid-template-columns:repeat(2,1fr)}
 .mega-grid.mg-3{grid-template-columns:repeat(3,1fr)}
-.mega-list{display:flex;flex-direction:column;gap:2px}
-.mega-cols{display:grid;grid-template-columns:1fr 210px;gap:30px}
-.mc-met{border-left:1px solid var(--line);padding-left:30px;min-width:0}
-.mega a{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:9px;transition:background .15s;white-space:normal;text-decoration:none}
+.mega-list{display:flex;flex-direction:column;gap:7px}
+.tech-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.mega .tech-cards a{flex-direction:column;align-items:flex-start;gap:13px;padding:24px 22px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.tech-cards a:hover{border-color:#d7e2e8;background:var(--bg);transform:translateY(-3px);box-shadow:0 18px 34px -24px rgba(15,49,68,.42)}
+.tech-cards a .mi{width:46px;height:46px;border-radius:12px}
+.tech-cards a .mi svg{width:23px;height:23px}
+.tech-cards a .mt b{font-size:15px}
+.tech-cards a .mt .md{font-size:12.5px;margin-top:5px;line-height:1.45}
+.mega-cols{display:grid;grid-template-columns:1fr 262px;gap:36px}
+.mc-met{border-left:1px solid var(--line);padding-left:28px;min-width:0}
+.mega a{display:flex;align-items:center;gap:13px;padding:10px 12px;border-radius:10px;transition:background .15s;white-space:normal;text-decoration:none;min-width:0}
 .mega a:hover{background:var(--bg)}
 .mega a .mi{width:38px;height:38px;border-radius:9px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .15s}
 .mega a .mi svg{width:19px;height:19px;stroke-width:1.7}
@@ -722,7 +729,7 @@ button{font-family:inherit;cursor:pointer;border:none}
                 <div class="mega-cols">
                   <div class="mc-dom">
                     <span class="mega-h">Par domaine du droit</span>
-                    <div class="mega-grid mg-3">
+                    <div class="mega-grid mg-2">
                       <a href="legal230-expertise-arbitrage-international.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></span><span class="mt"><b>Arbitrage international</b></span></a>
                       <a href="legal230-expertise-contentieux.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V10M18 21V10M4 10h16L12 3z"/></svg></span><span class="mt"><b>Contentieux</b></span></a>
                       <a href="legal230-expertise-droit-des-contrats.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/></svg></span><span class="mt"><b>Droit des contrats</b></span></a>
@@ -762,7 +769,7 @@ button{font-family:inherit;cursor:pointer;border:none}
             <div class="mega-inner">
               <div class="mega-main">
                 <span class="mega-h">Technologie &amp; sécurité</span>
-                <div class="mega-grid mg-3">
+                <div class="tech-cards">
                   <a href="legal230-technologie-alan.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="3"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg></span><span class="mt"><b>Alan, notre IA juridique</b><span class="md">IA propriétaire dédiée au droit</span></span></a>
                   <a href="legal230-technologie-securite.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span><span class="mt"><b>Sécurité &amp; confidentialité</b><span class="md">ISO 27001, hébergement France</span></span></a>
                   <a href="legal230-technologie-portail.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><span class="mt"><b>Portail Legal 230</b><span class="md">Devis, suivi et échanges sécurisés</span></span></a>
