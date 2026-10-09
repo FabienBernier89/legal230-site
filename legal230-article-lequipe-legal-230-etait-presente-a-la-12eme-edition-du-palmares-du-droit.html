@@ -79,55 +79,61 @@ button{font-family:inherit;cursor:pointer;border:none}
 .nav-burger.is-open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
 .nav-burger.is-open span:nth-child(2){opacity:0}
 .nav-burger.is-open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
-.nav-list{display:flex;align-items:center;gap:2px;list-style:none;position:relative}
+.nav-list{display:flex;align-items:center;gap:2px;list-style:none}
 .nav-item{position:static}
-.nav-link{display:inline-flex;align-items:center;gap:5px;font-family:'Poppins',sans-serif;font-size:14px;font-weight:500;color:var(--ink);background:none;border:none;padding:10px 11px;border-radius:8px;cursor:pointer;transition:color .2s;white-space:nowrap}
-.nav-link:hover{color:var(--emerald)}
+.nav-link{display:inline-flex;align-items:center;gap:5px;font-family:'Poppins',sans-serif;font-size:14px;font-weight:500;color:var(--ink);background:none;border:none;padding:10px 12px;border-radius:8px;cursor:pointer;transition:color .2s;white-space:nowrap;text-decoration:none}
+.nav-link:hover{color:var(--emerald-d)}
 .nav-link .chev{width:14px;height:14px;transition:transform .25s}
-.has-mega:hover>.nav-link{color:var(--emerald)}
+.has-mega:hover>.nav-link{color:var(--emerald-d)}
 .has-mega:hover>.nav-link .chev{transform:rotate(180deg)}
-.mega{position:absolute;top:100%;left:0;margin-top:12px;z-index:120;width:820px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 44px 90px -44px rgba(15,49,68,.45);padding:22px;opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .22s,transform .22s,visibility .22s}
+.nav-lexa{font-size:13px;color:var(--muted);font-weight:500;padding:10px 10px;border-radius:8px;text-decoration:none;transition:color .2s}
+.nav-lexa:hover{color:var(--emerald-d)}
+.mega{position:absolute;left:0;right:0;top:100%;z-index:120;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);box-shadow:0 40px 80px -50px rgba(15,49,68,.5);opacity:0;visibility:hidden;transform:translateY(6px);transition:opacity .2s,transform .2s,visibility .2s}
 .has-mega:hover>.mega{opacity:1;visibility:visible;transform:translateY(0)}
-.mega::before{content:"";position:absolute;top:-12px;left:0;right:0;height:12px}
-.mega-inner{display:flex;gap:22px;align-items:stretch}
-.mega-col{display:flex;flex-direction:column;gap:1px;flex:1;min-width:0}
-.mega-h{font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:10px}
-.mega a{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:8px;transition:background .18s;white-space:normal}
+.mega::before{content:"";position:absolute;top:-14px;left:0;right:0;height:14px}
+.mega-inner{max-width:1200px;margin:0 auto;padding:28px 34px;display:grid;grid-template-columns:1fr 300px;gap:34px;align-items:stretch}
+.mega-main{min-width:0}
+.mega-h{display:block;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--gold-ink);margin-bottom:13px}
+.mega-grid{display:grid;gap:2px 12px}
+.mega-grid.mg-2{grid-template-columns:repeat(2,1fr)}
+.mega-grid.mg-3{grid-template-columns:repeat(3,1fr)}
+.mega-list{display:flex;flex-direction:column;gap:2px}
+.mega-cols{display:grid;grid-template-columns:1fr 210px;gap:30px}
+.mc-met{border-left:1px solid var(--line);padding-left:30px;min-width:0}
+.mega a{display:flex;align-items:center;gap:12px;padding:9px 10px;border-radius:9px;transition:background .15s;white-space:normal;text-decoration:none}
 .mega a:hover{background:var(--bg)}
-.mega a .mi{width:38px;height:38px;border-radius:8px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .18s}
+.mega a .mi{width:38px;height:38px;border-radius:9px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .15s}
 .mega a .mi svg{width:19px;height:19px;stroke-width:1.7}
 .mega a:hover .mi{background:var(--emerald);color:#fff}
 .mega a .mt{display:flex;flex-direction:column;min-width:0}
 .mega a .mt b{font-family:'Poppins',sans-serif;font-size:13.5px;font-weight:600;color:var(--ink);line-height:1.3}
 .mega a:hover .mt b{color:var(--emerald-d)}
 .mega a .mt .md{font-size:11.5px;color:var(--muted);line-height:1.35}
-.mega-grid a .mi{width:34px;height:34px}
-.mega-grid a .mi svg{width:17px;height:17px}
-.mega-grid a .mt b{font-size:13px}
-.mega-cta{width:212px;flex-shrink:0;align-self:stretch;background:radial-gradient(420px 200px at 80% 0%,rgba(98,144,200,.22),transparent),var(--navy-grad);border-radius:10px;padding:24px;color:#fff;display:flex;flex-direction:column;justify-content:center}
-.mega-cta strong{font-family:'Roboto Slab',serif;font-size:17px;margin-bottom:6px}
-.mega-cta p{font-size:13px;color:rgba(255,255,255,.82);line-height:1.5;margin-bottom:16px}
+.mega-cta{background:radial-gradient(420px 220px at 82% 0%,rgba(98,144,200,.24),transparent),var(--navy-grad);border-radius:12px;padding:28px;color:#fff;display:flex;flex-direction:column;justify-content:center}
+.mega-cta strong{font-family:'Roboto Slab',serif;font-size:19px;margin-bottom:8px;line-height:1.22;color:#fff}
+.mega-cta p{font-size:13px;color:rgba(255,255,255,.84);line-height:1.5;margin-bottom:18px}
 .mega-cta .btn{align-self:flex-start}
-.mega-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px 14px}
 @media(max-width:1024px){
   .nav-burger{display:flex}
-  .nav-menu{position:fixed;top:74px;left:0;right:0;bottom:0;background:#fff;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto;padding:14px 22px 50px;border-top:1px solid var(--line)}
+  .nav-menu{position:fixed;top:74px;left:0;right:0;height:calc(100dvh - 74px);background:#fff;transform:translateX(100%);transition:transform .3s ease;overflow-y:auto;padding:14px 22px 50px;border-top:1px solid var(--line)}
   .nav-menu.open{transform:translateX(0)}
   .nav-list{flex-direction:column;align-items:stretch;gap:0}
   .nav-item{border-bottom:1px solid var(--line)}
   .nav-link{width:100%;justify-content:space-between;font-size:16px;padding:16px 4px}
+  .nav-lexa{display:block;padding:16px 4px}
   .has-mega:hover>.nav-link .chev{transform:none}
   .nav-item.open>.nav-link .chev{transform:rotate(180deg)}
   .mega{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:none;border-radius:0;padding:0 0 12px 8px;margin:0;display:none}
   .has-mega:hover>.mega{transform:none}
   .nav-item.open>.mega{display:block}
   .mega::before{display:none}
-  .mega-inner{flex-direction:column;gap:12px}
-  .mega-pad{min-width:0}
-  .mega-grid{grid-template-columns:1fr 1fr;gap:0}
+  .mega-inner{display:block;max-width:none;padding:0;gap:0}
+  .mega-cols{display:block}
+  .mc-met{border-left:none;padding-left:0;margin-top:8px}
+  .mega-grid.mg-2,.mega-grid.mg-3{grid-template-columns:1fr 1fr;gap:0}
   .mega-cta{display:none}
   .mega a{white-space:normal;padding:9px 8px}
-  .mega-h{margin-top:6px}
+  .mega-h{margin-top:10px}
 }
 
 /* ============ HERO (marine) ============ */
@@ -158,6 +164,10 @@ button{font-family:inherit;cursor:pointer;border:none}
 .hero-rating .div{width:1px;height:34px;background:rgba(255,255,255,.16)}
 .hero-trust{font-size:15.5px;color:rgba(255,255,255,.80);font-weight:500}
 .hero-trust b{color:#fff;font-weight:600}
+.hero.hero-home h1{font-size:clamp(36px,4.6vw,58px);letter-spacing:-.03em;line-height:1.06}
+.hero-chips{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:30px}
+.hero-chips .hc{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);border-radius:999px;padding:8px 15px;font-size:13.5px;font-weight:500;color:rgba(255,255,255,.9)}
+.hero-chips .hc svg{width:15px;height:15px;stroke-width:2;color:#9fe6c4;flex-shrink:0}
 /* KPIS : chiffres clés, couleurs inversées (fond blanc, chiffres marine) */
 .kpis{background:#fff;border-bottom:1px solid var(--line);padding:36px 0}
 .kpis-grid{display:grid;grid-template-columns:repeat(4,1fr)}
@@ -235,15 +245,30 @@ button{font-family:inherit;cursor:pointer;border:none}
 .sec-head h2{font-size:clamp(28px,3.4vw,40px);margin-bottom:16px}
 .sec-head p{color:var(--muted);font-size:16.5px;line-height:1.6}
 
-/* ============ PILLARS (humain) ============ */
-.pillars{padding:90px 0 82px;background:var(--white)}
-.pillars-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.pillar{background:#fff;border:1px solid var(--line);border-radius:8px;padding:34px 28px;transition:all .3s ease;display:flex;flex-direction:column}
-.pillar:hover{transform:translateY(-4px);box-shadow:0 18px 38px -24px rgba(15,49,68,.20);border-color:#D6E2DC}
-.pillar .ic{width:52px;height:52px;border-radius:7px;background:var(--emerald-pale);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;margin-bottom:22px}
-.pillar .ic svg{width:25px;height:25px;stroke-width:1.7}
-.pillar h3{font-size:19px;color:var(--ink);margin-bottom:11px;margin-top:auto}
-.pillar p{font-size:14.5px;color:var(--muted);line-height:1.62}
+/* ============ PILLARS (humain) : layout editorial asymetrique ============ */
+.pillars{padding:94px 0 86px;background:var(--white)}
+.pillars-inner{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.2fr);gap:70px;align-items:start}
+.pillars-head{position:sticky;top:98px}
+.pillars-head .kicker{margin-bottom:16px}
+.pillars-head h2{font-size:clamp(27px,2.9vw,38px);margin-bottom:18px;line-height:1.14;letter-spacing:-.02em}
+.pillars-head p{color:var(--muted);font-size:16px;line-height:1.66;max-width:430px;margin-bottom:26px}
+.pillars-link{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--emerald-d)}
+.pillars-link svg{width:16px;height:16px;transition:transform .2s}
+.pillars-link:hover svg{transform:translateX(4px)}
+.pillar-list{display:flex;flex-direction:column}
+.pillar-row{display:grid;grid-template-columns:50px 1fr;gap:22px;padding:28px 0;border-top:1px solid var(--line);position:relative;transition:transform .25s ease}
+.pillar-row:first-child{border-top:none;padding-top:4px}
+.pillar-row::before{content:"";position:absolute;left:-26px;top:30px;bottom:28px;width:2px;background:var(--emerald);border-radius:2px;transform:scaleY(0);transform-origin:top;transition:transform .3s ease}
+.pillar-row:hover::before{transform:scaleY(1)}
+.pillar-row:hover{transform:translateX(4px)}
+.pillar-row .ri{width:50px;height:50px;border-radius:50%;border:1.5px solid rgba(47,157,111,.42);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .25s ease}
+.pillar-row:hover .ri{background:var(--emerald-pale);border-color:var(--emerald)}
+.pillar-row .ri svg{width:23px;height:23px;stroke-width:1.7}
+.pillar-row h3{font-size:18.5px;color:var(--ink);margin-bottom:8px;transition:color .2s}
+.pillar-row:hover h3{color:var(--emerald-d)}
+.pillar-row p{font-size:14.5px;color:var(--muted);line-height:1.62}
+@media(max-width:860px){.pillars-inner{grid-template-columns:1fr;gap:36px}.pillars-head{position:static}.pillars-head p{max-width:none}.pillar-row::before{display:none}.pillar-row:hover{transform:none}}
+@media(max-width:560px){.pillar-row{grid-template-columns:1fr;gap:14px;padding:24px 0}}
 
 /* ============ EXPERTS (marine) ============ */
 .experts{padding:90px 0;color:#fff;position:relative;overflow:hidden;
@@ -310,7 +335,7 @@ button{font-family:inherit;cursor:pointer;border:none}
 .profiles{padding:90px 0;background:#fff}
 .prof-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
 .prof{background:#fff;border:1px solid var(--line);border-radius:12px;padding:30px 26px;transition:all .3s ease;display:flex;flex-direction:column;box-shadow:0 1px 2px rgba(8,29,40,.05)}
-.prof:hover{transform:translateY(-4px);box-shadow:0 18px 40px -26px rgba(15,49,68,.18);border-color:#D6E2DC}
+.prof:hover{transform:translateY(-4px);box-shadow:0 18px 38px -24px rgba(15,49,68,.18);border-color:#D6E2DC}
 .prof .hd{display:flex;align-items:center;gap:13px;margin-bottom:14px}.prof .ri{width:44px;height:44px;border-radius:50%;border:1.5px solid rgba(47,157,111,.42);color:var(--emerald-d);display:flex;align-items:center;justify-content:center;flex-shrink:0}
 .prof .ri svg{width:21px;height:21px;stroke-width:1.7}
 .prof h3{font-size:16.5px;color:var(--ink);line-height:1.25}
@@ -362,7 +387,7 @@ button{font-family:inherit;cursor:pointer;border:none}
 .tf-mention .lk b{font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;color:var(--ink);letter-spacing:-.01em}
 .tf-mention .arr{width:15px;height:15px;color:var(--emerald-d)}
 .testi{flex:0 0 340px;scroll-snap-align:start;background:#fff;border:1px solid var(--line);border-radius:8px;padding:34px;display:flex;flex-direction:column;transition:all .3s ease}
-.testi:hover{transform:translateY(-4px);box-shadow:0 30px 60px -30px rgba(15,49,68,.18)}
+.testi:hover{transform:translateY(-4px);box-shadow:0 18px 40px -26px rgba(15,49,68,.18)}
 .testi .stars{color:var(--gold);font-size:15px;letter-spacing:3px;margin-bottom:18px}
 .testi blockquote{font-family:'Roboto Slab',serif;font-size:16px;color:var(--ink);line-height:1.6;font-weight:400;margin-bottom:24px;flex-grow:1}
 .testi .author{display:flex;align-items:center;gap:14px;padding-top:18px;border-top:1px solid var(--line)}
@@ -449,7 +474,7 @@ button{font-family:inherit;cursor:pointer;border:none}
 .certs{padding:88px 0;background:linear-gradient(180deg,#fff 0%,var(--bg) 100%)}
 .certs-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
 .cert{background:#fff;border:1px solid var(--line);border-radius:8px;padding:30px 26px;transition:all .3s ease}
-.cert:hover{transform:translateY(-4px);box-shadow:0 30px 60px -30px rgba(15,49,68,.18);border-color:#D6E2DC}
+.cert:hover{transform:translateY(-4px);box-shadow:0 18px 40px -26px rgba(15,49,68,.18);border-color:#D6E2DC}
 .cert .ic{width:50px;height:50px;border-radius:6px;background:var(--gold-pale);color:var(--gold-ink);display:flex;align-items:center;justify-content:center;margin-bottom:20px}
 .cert .ic svg{width:24px;height:24px;stroke-width:1.7}
 .cert h3{font-size:16.5px;color:var(--ink);margin-bottom:9px}
@@ -641,21 +666,16 @@ button{font-family:inherit;cursor:pointer;border:none}
           <button type="button" class="nav-link" aria-haspopup="true">Services <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
           <div class="mega">
             <div class="mega-inner">
-              <div class="mega-col">
+              <div class="mega-main">
                 <span class="mega-h">Nos services</span>
-                <a href="legal230-service-traduction-libre.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h7M9 3v2c0 5-3 8-6 9M5 9c0 3 4 6 8 6M14 21l4-9 4 9M15.5 18h5"/></svg></span><span class="mt"><b>Traduction libre</b><span class="md">Par un expert de votre matière</span></span></a>
-                <a href="legal230-service-traduction-certifiee.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M9 12.5L7 22l5-3 5 3-2-9.5"/></svg></span><span class="mt"><b>Traduction certifiée</b><span class="md">Assermentée près les Cours d'appel</span></span></a>
-                <a href="legal230-service-interpretation.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></span><span class="mt"><b>Interprétation</b><span class="md">Sur site ou à distance</span></span></a>
-                <a href="legal230-service-legalisation.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><circle cx="12" cy="15" r="2.5"/></svg></span><span class="mt"><b>Légalisation</b><span class="md">Apostille, CCI, MAE / Consulat</span></span></a>
-                <a href="legal230-service-mise-a-jour.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7M21 3v6h-6"/></svg></span><span class="mt"><b>Mise à jour de document</b><span class="md">Révision et actualisation</span></span></a>
-                <a href="legal230-service-transcription.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg></span><span class="mt"><b>Transcription</b><span class="md">Audiences, auditions, enregistrements</span></span></a>
-              </div>
-              <div class="mega-col">
-                <span class="mega-h">Par métier</span>
-                <a href="legal230-metier-directions-juridiques.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3M9 9v.01M9 13v.01M9 17v.01"/></svg></span><span class="mt"><b>Direction juridique</b></span></a>
-                <a href="legal230-metier-avocats.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></span><span class="mt"><b>Cabinet d'avocat</b></span></a>
-                <a href="legal230-metier-commissaires-de-justice.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12h6M12 9v6"/></svg></span><span class="mt"><b>Commissaire de justice</b></span></a>
-                <a href="legal230-metier-notaires.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 22V12h6v10"/></svg></span><span class="mt"><b>Notaire</b></span></a>
+                <div class="mega-grid mg-2">
+                  <a href="legal230-service-traduction-libre.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h7M9 3v2c0 5-3 8-6 9M5 9c0 3 4 6 8 6M14 21l4-9 4 9M15.5 18h5"/></svg></span><span class="mt"><b>Traduction libre</b><span class="md">Par un expert de votre matière</span></span></a>
+                  <a href="legal230-service-traduction-certifiee.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="M9 12.5L7 22l5-3 5 3-2-9.5"/></svg></span><span class="mt"><b>Traduction certifiée</b><span class="md">Assermentée près les Cours d'appel</span></span></a>
+                  <a href="legal230-service-interpretation.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 18v-6a9 9 0 0 1 18 0v6"/><path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/></svg></span><span class="mt"><b>Interprétation</b><span class="md">Sur site ou à distance</span></span></a>
+                  <a href="legal230-service-legalisation.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><circle cx="12" cy="15" r="2.5"/></svg></span><span class="mt"><b>Légalisation</b><span class="md">Apostille, CCI, MAE / Consulat</span></span></a>
+                  <a href="legal230-service-mise-a-jour.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7M21 3v6h-6"/></svg></span><span class="mt"><b>Mise à jour de document</b><span class="md">Révision et actualisation</span></span></a>
+                  <a href="legal230-service-transcription.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="5" height="7" rx="2"/><rect x="17" y="14" width="5" height="7" rx="2"/></svg></span><span class="mt"><b>Transcription</b><span class="md">Audiences, auditions, enregistrements</span></span></a>
+                </div>
               </div>
               <div class="mega-cta">
                 <strong>Un projet en tête ?</strong>
@@ -669,26 +689,39 @@ button{font-family:inherit;cursor:pointer;border:none}
           <button type="button" class="nav-link" aria-haspopup="true">Expertises <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
           <div class="mega">
             <div class="mega-inner">
-              <div class="mega-col">
-                <span class="mega-h">Nos domaines d'expertise</span>
-              <div class="mega-grid">
-                <a href="legal230-expertise-arbitrage-international.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></span><span class="mt"><b>Arbitrage international</b></span></a>
-                <a href="legal230-expertise-contentieux.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V10M18 21V10M4 10h16L12 3z"/></svg></span><span class="mt"><b>Contentieux</b></span></a>
-                <a href="legal230-expertise-droit-des-contrats.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/></svg></span><span class="mt"><b>Droit des contrats</b></span></a>
-                <a href="legal230-expertise-droit-des-societes.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg></span><span class="mt"><b>Droit des sociétés</b></span></a>
-                <a href="legal230-expertise-droit-immobilier.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 22V12h6v10"/></svg></span><span class="mt"><b>Droit immobilier</b></span></a>
-                <a href="legal230-expertise-droit-social.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3 21v-2a5 5 0 0 1 9-3M14 21v-1a4 4 0 0 1 7-3"/></svg></span><span class="mt"><b>Droit social</b></span></a>
-                <a href="legal230-expertise-droit-fiscal.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7h6M9 11h6M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2z"/></svg></span><span class="mt"><b>Droit fiscal</b></span></a>
-                <a href="legal230-expertise-propriete-intellectuelle.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M9 21l3-3 3 3M12 15v6"/></svg></span><span class="mt"><b>Propriété intellectuelle</b></span></a>
-                <a href="legal230-expertise-banque-finance.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg></span><span class="mt"><b>Banque / Finance</b></span></a>
-                <a href="legal230-expertise-droit-public.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8h14v13M9 21v-5h6v5M9 8V4h6v4"/></svg></span><span class="mt"><b>Droit public</b></span></a>
-                <a href="legal230-expertise-immigration-internationale.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span class="mt"><b>Immigration internationale</b></span></a>
-                <a href="legal230-expertise-droit-commercial.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2 3h2l2.6 13.4a1 1 0 0 0 1 .8h9.7a1 1 0 0 0 1-.8L21 7H6"/></svg></span><span class="mt"><b>Droit commercial</b></span></a>
+              <div class="mega-main">
+                <div class="mega-cols">
+                  <div class="mc-dom">
+                    <span class="mega-h">Par domaine du droit</span>
+                    <div class="mega-grid mg-3">
+                      <a href="legal230-expertise-arbitrage-international.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></span><span class="mt"><b>Arbitrage international</b></span></a>
+                      <a href="legal230-expertise-contentieux.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M6 21V10M18 21V10M4 10h16L12 3z"/></svg></span><span class="mt"><b>Contentieux</b></span></a>
+                      <a href="legal230-expertise-droit-des-contrats.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/></svg></span><span class="mt"><b>Droit des contrats</b></span></a>
+                      <a href="legal230-expertise-droit-des-societes.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-4h6v4"/></svg></span><span class="mt"><b>Droit des sociétés</b></span></a>
+                      <a href="legal230-expertise-droit-immobilier.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 22V12h6v10"/></svg></span><span class="mt"><b>Droit immobilier</b></span></a>
+                      <a href="legal230-expertise-droit-social.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3 21v-2a5 5 0 0 1 9-3M14 21v-1a4 4 0 0 1 7-3"/></svg></span><span class="mt"><b>Droit social</b></span></a>
+                      <a href="legal230-expertise-droit-fiscal.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7h6M9 11h6M5 3h14v18l-3-2-2 2-2-2-2 2-2-2-3 2z"/></svg></span><span class="mt"><b>Droit fiscal</b></span></a>
+                      <a href="legal230-expertise-propriete-intellectuelle.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="9" r="6"/><path d="M9 21l3-3 3 3M12 15v6"/></svg></span><span class="mt"><b>Propriété intellectuelle</b></span></a>
+                      <a href="legal230-expertise-banque-finance.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18M7 15h4"/></svg></span><span class="mt"><b>Banque / Finance</b></span></a>
+                      <a href="legal230-expertise-droit-public.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8h14v13M9 21v-5h6v5M9 8V4h6v4"/></svg></span><span class="mt"><b>Droit public</b></span></a>
+                      <a href="legal230-expertise-immigration-internationale.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span class="mt"><b>Immigration internationale</b></span></a>
+                      <a href="legal230-expertise-droit-commercial.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2 3h2l2.6 13.4a1 1 0 0 0 1 .8h9.7a1 1 0 0 0 1-.8L21 7H6"/></svg></span><span class="mt"><b>Droit commercial</b></span></a>
+                    </div>
+                  </div>
+                  <div class="mc-met">
+                    <span class="mega-h">Par métier</span>
+                    <div class="mega-list">
+                      <a href="legal230-metier-directions-juridiques.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V7l8-4v18M19 21V11l-6-3M9 9v.01M9 13v.01M9 17v.01"/></svg></span><span class="mt"><b>Direction juridique</b></span></a>
+                      <a href="legal230-metier-avocats.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M5 7l7-4 7 4M5 7l-2 6a4 4 0 0 0 8 0L9 7M19 7l-2 6a4 4 0 0 0 8 0l-2-6"/></svg></span><span class="mt"><b>Cabinet d'avocat</b></span></a>
+                      <a href="legal230-metier-commissaires-de-justice.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12h6M12 9v6"/></svg></span><span class="mt"><b>Commissaire de justice</b></span></a>
+                      <a href="legal230-metier-notaires.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-6 9 6v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1z"/><path d="M9 22V12h6v10"/></svg></span><span class="mt"><b>Notaire</b></span></a>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="mega-cta">
-                <strong>Une matière pointue ?</strong>
-                <p>Confiez votre dossier à un traducteur expert de votre domaine du droit.</p>
+                <strong>Une équipe par domaine</strong>
+                <p>Vos dossiers confiés à un traducteur expert de votre matière, souvent ancien juriste ou avocat.</p>
                 <a class="btn btn-emerald" href="legal230-contact.html">Demander un devis</a>
               </div>
             </div>
@@ -698,11 +731,13 @@ button{font-family:inherit;cursor:pointer;border:none}
           <button type="button" class="nav-link" aria-haspopup="true">Technologies <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
           <div class="mega">
             <div class="mega-inner">
-              <div class="mega-col">
-                <span class="mega-h">Technologies</span>
-                <a href="legal230-technologie-alan.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="3"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg></span><span class="mt"><b>Alan, notre IA juridique</b><span class="md">IA propriétaire dédiée au droit</span></span></a>
-                <a href="legal230-technologie-securite.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span><span class="mt"><b>Sécurité &amp; confidentialité</b><span class="md">ISO 27001, hébergement France</span></span></a>
-                <a href="legal230-technologie-portail.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><span class="mt"><b>Portail Legal 230</b><span class="md">Devis, suivi et échanges sécurisés</span></span></a>
+              <div class="mega-main">
+                <span class="mega-h">Technologie &amp; sécurité</span>
+                <div class="mega-grid mg-3">
+                  <a href="legal230-technologie-alan.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="5" width="14" height="14" rx="3"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg></span><span class="mt"><b>Alan, notre IA juridique</b><span class="md">IA propriétaire dédiée au droit</span></span></a>
+                  <a href="legal230-technologie-securite.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></span><span class="mt"><b>Sécurité &amp; confidentialité</b><span class="md">ISO 27001, hébergement France</span></span></a>
+                  <a href="legal230-technologie-portail.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg></span><span class="mt"><b>Portail Legal 230</b><span class="md">Devis, suivi et échanges sécurisés</span></span></a>
+                </div>
               </div>
               <div class="mega-cta">
                 <strong>L'IA au service de l'humain</strong>
@@ -716,12 +751,15 @@ button{font-family:inherit;cursor:pointer;border:none}
           <button type="button" class="nav-link" aria-haspopup="true">Ressources <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></button>
           <div class="mega">
             <div class="mega-inner">
-              <div class="mega-col">
+              <div class="mega-main">
                 <span class="mega-h">Ressources</span>
-                <a href="legal230-blog.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg></span><span class="mt"><b>Articles</b></span></a>
-                <a href="legal230-etudes-de-cas.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-6"/></svg></span><span class="mt"><b>Études de cas par secteur</b></span></a>
-                <a href="legal230-livre-blanc.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><span class="mt"><b>Livres blancs</b></span></a>
-                <a href="legal230-media.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><polygon points="10 8 15 10.5 10 13"/><path d="M8 21h8"/></svg></span><span class="mt"><b>Médias</b></span></a>
+                <div class="mega-grid mg-2">
+                  <a href="legal230-blog.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="13" y2="17"/></svg></span><span class="mt"><b>Articles</b></span></a>
+                  <a href="legal230-etudes-de-cas.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 4 4 5-6"/></svg></span><span class="mt"><b>Études de cas par secteur</b></span></a>
+                  <a href="legal230-livre-blanc.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></span><span class="mt"><b>Livres blancs</b></span></a>
+                  <a href="legal230-media.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><polygon points="10 8 15 10.5 10 13"/><path d="M8 21h8"/></svg></span><span class="mt"><b>Médias</b></span></a>
+                  <a href="legal230-a-propos.html"><span class="mi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span><span class="mt"><b>À propos</b></span></a>
+                </div>
               </div>
               <div class="mega-cta">
                 <strong>Une question ?</strong>
@@ -731,8 +769,7 @@ button{font-family:inherit;cursor:pointer;border:none}
             </div>
           </div>
         </li>
-        <li class="nav-item"><a class="nav-link" href="legal230-a-propos.html">À propos</a></li>
-        <li class="nav-item"><a class="nav-link" href="https://lexamt.com" target="_blank" rel="noopener">Lexa</a></li>
+        <li class="nav-item"><a class="nav-lexa" href="https://lexamt.com" target="_blank" rel="noopener">Lexa</a></li>
       </ul>
     </nav>
 
