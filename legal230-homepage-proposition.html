@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Legal 230 · Agence de traduction juridique et d'interprétation</title>
+<meta name="description" content="Legal 230, 1ère agence européenne de traduction et d'interprétation 100 % juridiques. Des traducteurs experts de votre matière, relus par un second expert, dans plus de 230 langues. Devis en 30 minutes.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0F3144">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&family=Hanken+Grotesk:wght@400;500;600&display=swap">
+<style>
+/* ---------- fondations ---------- */
+:root{
+  --navy:#0F3144; --navy-deep:#0A2230; --navy-soft:#1C4257;
+  --garnet:#9E2B2E; --garnet-dark:#7F2224; --garnet-pale:#F6ECEC;
+  --ink:#1F2E36; --text:#2B3A42; --muted:#5F6E76; --faint:#8A969C;
+  --line:#D9E0E4; --line-soft:#E8EDF0;
+  --mist:#EEF2F4; --mist-2:#F6F8F9; --white:#FFFFFF;
+  --serif:'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --sans:'Hanken Grotesk', 'Helvetica Neue', Arial, sans-serif;
+  --w:1200px; --gutter:24px;
+  --r:6px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:var(--sans);font-size:17px;line-height:1.6;color:var(--text);background:var(--white);overflow-x:clip;-webkit-font-smoothing:antialiased}
+::selection{background:var(--navy);color:#fff}
+:focus-visible{outline:2px solid var(--garnet);outline-offset:3px;border-radius:2px}
+html{scrollbar-color:var(--navy-soft) var(--mist)}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+a.inline{color:var(--garnet);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+a.inline:hover{color:var(--garnet-dark)}
+strong{font-weight:600;color:var(--ink)}
+.wrap{max-width:var(--w);margin-inline:auto;padding-inline:var(--gutter)}
+h1,h2,h3,.serif{font-family:var(--serif);font-weight:600;color:var(--navy);letter-spacing:-.02em;line-height:1.1;text-wrap:balance}
+h2{font-size:clamp(30px,3.2vw,42px)}
+h3{font-size:22px;letter-spacing:-.01em;line-height:1.25}
+.lead{font-size:19px;line-height:1.55;color:var(--text);max-width:62ch}
+.intro{max-width:60ch;color:var(--muted);font-size:17px}
+.sec{padding:104px 0}
+.sec-head{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:48px;align-items:end;margin-bottom:56px}
+.sec-head .intro{padding-bottom:6px}
+.tabular{font-variant-numeric:tabular-nums lining-nums}
+
+/* boutons */
+.btn{display:inline-flex;align-items:center;gap:10px;min-height:52px;padding:0 26px;border-radius:var(--r);font-weight:600;font-size:16px;letter-spacing:.005em;transition:background-color .2s var(--ease),transform .2s var(--ease),box-shadow .2s var(--ease);white-space:nowrap}
+.btn svg{width:16px;height:16px;flex:none;transition:transform .25s var(--ease)}
+.btn:hover svg{transform:translateX(3px)}
+.btn-primary{background:var(--garnet);color:#fff}
+.btn-primary:hover{background:var(--garnet-dark);transform:translateY(-1px)}
+.btn-ghost{color:var(--navy);padding-inline:0;text-decoration:underline;text-decoration-color:var(--garnet);text-decoration-thickness:1.5px;text-underline-offset:5px}
+.btn-ghost:hover{color:var(--garnet)}
+.btn-light{background:#fff;color:var(--navy)}
+.btn-light:hover{background:var(--mist)}
+.btn-outline-light{border:1.5px solid rgba(255,255,255,.55);color:#fff}
+.btn-outline-light:hover{border-color:#fff;background:rgba(255,255,255,.06)}
+.more{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--navy);font-size:15px;margin-top:auto}
+.more svg{width:15px;height:15px;transition:transform .25s var(--ease)}
+.more .u{background-image:linear-gradient(var(--garnet),var(--garnet));background-size:0 1.5px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .3s var(--ease);padding-bottom:2px}
+a:hover .more .u, .more:hover .u{background-size:100% 1.5px}
+a:hover .more svg, .more:hover svg{transform:translateX(3px)}
+
+/* ---------- navigation ---------- */
+.nav{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.94);backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line-soft)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{font-family:var(--serif);font-weight:600;font-size:23px;color:var(--navy);letter-spacing:.01em;display:inline-flex;align-items:baseline;gap:8px}
+.logo b{font-weight:600;color:var(--garnet)}
+.nav-list{display:flex;gap:34px;list-style:none}
+.nav-list a{font-weight:500;font-size:15.5px;color:var(--ink);padding:8px 0;position:relative}
+.nav-list a::after{content:"";position:absolute;left:0;right:0;bottom:2px;height:1.5px;background:var(--garnet);transform:scaleX(0);transform-origin:left;transition:transform .25s var(--ease)}
+.nav-list a:hover::after{transform:scaleX(1)}
+.nav-cta{display:flex;align-items:center;gap:22px}
+.nav-tel{font-weight:500;font-size:15px;color:var(--navy);white-space:nowrap}
+.nav .btn{min-height:44px;padding-inline:20px;font-size:15px}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer;color:var(--navy)}
+
+/* ---------- héros ---------- */
+.hero{position:relative;background:var(--white);overflow:clip}
+.hero-grid{display:grid;grid-template-columns:minmax(0,11fr) minmax(0,9fr);min-height:min(700px,calc(100svh - 76px))}
+.hero-copy{padding:72px calc(var(--gutter) + 24px) 64px max(var(--gutter),calc((100vw - var(--w)) / 2 + var(--gutter)));display:flex;flex-direction:column;justify-content:center}
+.hero h1{font-size:clamp(38px,3.9vw,56px);line-height:1.06;max-width:19ch;margin-bottom:26px}
+.hero h1 em{font-style:normal;color:var(--garnet)}
+.hero .lead{margin-bottom:36px;max-width:52ch}
+.hero-actions{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-bottom:44px}
+.trust{display:flex;flex-wrap:wrap;gap:10px 26px;list-style:none;padding-top:26px;border-top:1px solid var(--line)}
+.trust li{display:flex;align-items:center;gap:9px;font-size:14.5px;font-weight:500;color:var(--muted)}
+.trust svg{width:16px;height:16px;color:var(--garnet);flex:none}
+.hero-visual{position:relative;min-height:520px}
+.hero-visual img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%;filter:saturate(.92) contrast(1.02)}
+.hero-card{position:absolute;left:0;bottom:56px;background:#fff;border-radius:0 var(--r) var(--r) 0;padding:22px 28px 22px 26px;box-shadow:0 24px 48px -28px rgba(10,34,48,.45);display:grid;grid-template-columns:auto 1fr;gap:16px 18px;align-items:center;max-width:380px}
+.hero-card .big{font-family:var(--serif);font-weight:600;font-size:44px;line-height:1;color:var(--navy);letter-spacing:-.02em}
+.hero-card .big small{font-size:18px;color:var(--muted);font-family:var(--sans);font-weight:500;letter-spacing:0;margin-left:3px}
+.hero-card p{font-size:14.5px;line-height:1.45;color:var(--text)}
+.hero-card p strong{display:block;font-size:15.5px;color:var(--navy)}
+.hero-card .rating{grid-column:1/-1;display:flex;align-items:center;gap:10px;padding-top:14px;border-top:1px solid var(--line-soft);font-size:14px;color:var(--muted)}
+.stars{display:inline-flex;gap:2px;color:var(--garnet)}
+.stars svg{width:14px;height:14px}
+
+/* bande clients */
+.clients{padding:26px 0 28px;border-bottom:1px solid var(--line-soft)}
+.clients .wrap{display:grid;grid-template-columns:1fr;gap:12px}
+.clients .lab{font-size:14px;color:var(--muted);font-weight:500;white-space:nowrap}
+.clients ul{display:flex;flex-wrap:wrap;gap:8px 18px;list-style:none;justify-content:space-between}
+.clients li{font-family:var(--serif);font-weight:500;font-size:15.5px;color:#6B7A83;letter-spacing:-.015em;white-space:nowrap}
+
+/* ---------- services ---------- */
+.services-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:auto auto;gap:36px 28px}
+.svc{display:flex;flex-direction:column;gap:14px}
+.svc .pic{overflow:hidden;border-radius:var(--r);aspect-ratio:4/3;background:var(--mist)}
+.svc .pic img{width:100%;height:100%;object-fit:cover;filter:saturate(.9) contrast(1.02);transition:transform .7s var(--ease)}
+.svc:hover .pic img{transform:scale(1.045)}
+.svc p{color:var(--muted);font-size:16px}
+.svc-feat{grid-row:1/3;grid-column:1}
+.svc-feat .pic{aspect-ratio:auto;flex:1;min-height:420px}
+.svc-feat h3{font-size:28px}
+.svc-feat p{font-size:17px;color:var(--text)}
+
+/* ---------- chiffres ---------- */
+.kpis{background:var(--navy);color:#fff;padding:72px 0}
+.kpis .wrap{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:48px;align-items:center}
+.kpis h2{color:#fff;font-size:clamp(26px,2.6vw,34px)}
+.kpis .intro{color:rgba(255,255,255,.72)}
+.kpi-list{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+.kpi{border-left:1px solid rgba(255,255,255,.22);padding-left:22px}
+.kpi .n{font-family:var(--serif);font-weight:600;font-size:clamp(38px,3.6vw,52px);line-height:1;letter-spacing:-.02em;color:#fff}
+.kpi .n sup{font-size:.5em;vertical-align:.55em;margin-left:2px;font-weight:500}
+.kpi p{margin-top:12px;font-size:15px;color:rgba(255,255,255,.78);line-height:1.45}
+
+/* ---------- expertise humaine ---------- */
+.human{padding:112px 0}
+.human .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:72px;align-items:center}
+.human figure{position:relative}
+.human figure .pic{border-radius:var(--r);overflow:hidden;aspect-ratio:4/5}
+.human figure img{width:100%;height:100%;object-fit:cover;filter:saturate(.88) contrast(1.03)}
+.human figcaption{position:absolute;left:22px;right:22px;bottom:22px;background:rgba(255,255,255,.96);border-radius:var(--r);padding:16px 20px;font-size:14.5px;line-height:1.45;color:var(--text)}
+.human figcaption strong{display:block;color:var(--navy)}
+.human h2{margin-bottom:18px}
+.human .lead{margin-bottom:32px}
+.plist{list-style:none;border-top:1px solid var(--line)}
+.plist li{padding:24px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:24px}
+.plist h3{font-size:19px}
+.plist p{font-size:16px;color:var(--muted)}
+.human .btn{margin-top:34px}
+
+/* ---------- méthode ---------- */
+.method{background:var(--mist);padding:104px 0}
+.method .sec-head{margin-bottom:48px}
+.steps{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 44px;border-top:1px solid var(--line)}
+.step{padding:30px 0 30px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:12px}
+.step .role{margin-top:auto;padding-top:10px;font-size:14px;font-weight:600;color:var(--garnet)}
+.step .role.opt{color:var(--muted)}
+.step h3{font-size:21px}
+.step p{font-size:16px;color:var(--muted)}
+.step .ord{font-family:var(--serif);font-weight:600;font-size:16px;color:#fff;background:var(--navy);width:36px;height:36px;border-radius:50%;display:grid;place-items:center;margin-bottom:8px}
+.method-claim{margin-top:40px;display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:center;background:var(--navy);color:#fff;border-radius:var(--r);padding:26px 32px}
+.method-claim .q{font-family:var(--serif);font-weight:600;font-size:22px;letter-spacing:-.015em;line-height:1.3}
+.method-claim p{color:rgba(255,255,255,.78);font-size:15.5px}
+.method-claim svg{width:34px;height:34px;color:#fff;opacity:.9}
+
+/* ---------- sécurité ---------- */
+.security{background:var(--navy);color:#fff;padding:104px 0}
+.security h2{color:#fff}
+.security .intro{color:rgba(255,255,255,.72)}
+.sec-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 56px;border-top:1px solid rgba(255,255,255,.2)}
+.sec-grid article{padding:30px 0;border-bottom:1px solid rgba(255,255,255,.2);display:grid;grid-template-columns:auto 1fr;gap:20px;align-items:start}
+.sec-grid svg{width:30px;height:30px;color:#fff;opacity:.95;margin-top:3px}
+.sec-grid h3{color:#fff;font-size:20px;margin-bottom:8px}
+.sec-grid p{color:rgba(255,255,255,.78);font-size:15.5px}
+
+/* ---------- métiers ---------- */
+.profiles-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.prof{display:flex;flex-direction:column;gap:12px}
+.prof .pic{aspect-ratio:3/4;border-radius:var(--r);overflow:hidden;background:var(--mist)}
+.prof .pic img{width:100%;height:100%;object-fit:cover;filter:saturate(.9) contrast(1.02);transition:transform .7s var(--ease)}
+.prof:hover .pic img{transform:scale(1.045)}
+.prof h3{font-size:21px}
+.prof p{font-size:15.5px;color:var(--muted)}
+
+/* ---------- domaines ---------- */
+.domains{background:var(--mist-2);padding:96px 0}
+.dom-list{list-style:none;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 48px;border-top:1px solid var(--line)}
+.dom-list a{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 2px;border-bottom:1px solid var(--line);font-weight:500;font-size:17px;color:var(--ink);transition:color .2s var(--ease),padding-left .25s var(--ease)}
+.dom-list a svg{width:16px;height:16px;color:var(--faint);flex:none;transition:color .2s,transform .25s var(--ease)}
+.dom-list a:hover{color:var(--garnet);padding-left:8px}
+.dom-list a:hover svg{color:var(--garnet);transform:translateX(3px)}
+
+/* ---------- process ---------- */
+.process-grid{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;position:relative}
+.process-grid::before{content:"";position:absolute;left:18px;right:18px;top:18px;height:1px;background:var(--line)}
+.pstep{position:relative;padding-top:58px}
+.pstep .num{position:absolute;top:0;left:0;width:37px;height:37px;border-radius:50%;background:var(--navy);color:#fff;font-family:var(--serif);font-weight:600;display:grid;place-items:center;font-size:16px}
+.pstep h3{font-size:20px;margin-bottom:10px}
+.pstep p{font-size:15.5px;color:var(--muted)}
+
+/* ---------- cas concrets ---------- */
+.cases{background:var(--mist);padding:104px 0}
+.case{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:center;background:#fff;border-radius:var(--r);overflow:hidden}
+.case + .case{margin-top:28px}
+.case.alt{grid-template-columns:minmax(0,7fr) minmax(0,5fr)}
+.case.alt .pic{order:2}
+.case .pic{aspect-ratio:4/3;overflow:hidden}
+.case .pic img{width:100%;height:100%;object-fit:cover;filter:saturate(.9) contrast(1.02)}
+.case .body{padding:28px 40px 28px 0}
+.case.alt .body{padding:28px 0 28px 40px}
+.case h3{font-size:25px;margin-bottom:14px}
+.case p{color:var(--text);font-size:16.5px}
+.case .facts{display:flex;gap:28px;list-style:none;margin:22px 0 0;padding-top:18px;border-top:1px solid var(--line)}
+.case .facts li{font-size:14.5px;color:var(--muted)}
+.case .facts strong{display:block;font-family:var(--serif);font-size:24px;color:var(--navy);line-height:1.1;margin-bottom:2px}
+
+/* ---------- avis ---------- */
+.reviews .sec-head{align-items:center}
+.score{display:flex;align-items:center;gap:18px;justify-self:end}
+.score .n{font-family:var(--serif);font-weight:600;font-size:52px;color:var(--navy);line-height:1;letter-spacing:-.02em}
+.score .n small{font-size:20px;color:var(--muted);font-family:var(--sans);font-weight:500;letter-spacing:0}
+.score p{font-size:14.5px;color:var(--muted);line-height:1.4}
+.quotes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.quote{border-top:2px solid var(--navy);padding-top:22px;display:flex;flex-direction:column;gap:18px}
+.quote blockquote{font-family:var(--serif);font-weight:500;font-size:20px;line-height:1.4;color:var(--ink);letter-spacing:-.005em}
+.quote footer{margin-top:auto;padding-top:14px;border-top:1px solid var(--line)}
+.quote .who{font-size:14.5px;line-height:1.35;color:var(--muted)}
+.quote .who strong{display:block;color:var(--ink);font-weight:600}
+.awards{margin-top:64px;padding-top:40px;border-top:1px solid var(--line);display:grid;grid-template-columns:auto 1fr;gap:40px;align-items:center}
+.awards p{font-size:15px;color:var(--muted);max-width:22ch;line-height:1.4}
+.awards ul{display:flex;gap:56px;list-style:none;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+.awards ul{align-items:center}
+.awards img{height:48px;width:auto;filter:grayscale(1) contrast(1.05);opacity:.7;transition:filter .3s,opacity .3s}
+.awards li:hover img{filter:none;opacity:1}
+
+/* ---------- europe ---------- */
+.europe{padding:104px 0}
+.europe .wrap{display:grid;grid-template-columns:minmax(0,6fr) minmax(0,5fr);gap:64px;align-items:center}
+.europe .pic{border-radius:var(--r);overflow:hidden;aspect-ratio:4/3}
+.europe .pic img{width:100%;height:100%;object-fit:cover;filter:saturate(.9) contrast(1.02)}
+.europe h2{margin-bottom:16px}
+.offices{list-style:none;margin-top:30px;border-top:1px solid var(--line)}
+.offices li{display:grid;grid-template-columns:120px 1fr auto;gap:16px;align-items:baseline;padding:16px 0;border-bottom:1px solid var(--line);font-size:15.5px}
+.offices .city{font-family:var(--serif);font-weight:600;font-size:19px;color:var(--navy)}
+.offices .addr{color:var(--muted)}
+.offices a{color:var(--navy);font-weight:500;white-space:nowrap}
+.offices a:hover{color:var(--garnet)}
+
+/* ---------- faq ---------- */
+.faq{background:var(--mist-2);padding:96px 0}
+.faq .wrap{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:56px;align-items:start}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:first-of-type{border-top:1px solid var(--line)}
+.faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 0;font-weight:600;font-size:17.5px;color:var(--ink)}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary svg{width:18px;height:18px;flex:none;color:var(--navy);transition:transform .3s var(--ease)}
+.faq details[open] summary svg{transform:rotate(45deg)}
+.faq details[open] summary{color:var(--navy)}
+.faq .ans{padding:0 0 22px;color:var(--muted);font-size:16px;max-width:66ch}
+
+/* ---------- passerelle Lexa ---------- */
+.bridge{padding:56px 0;border-top:1px solid var(--line-soft)}
+.bridge .wrap{display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center}
+.bridge h3{font-size:21px;margin-bottom:6px}
+.bridge p{color:var(--muted);font-size:15.5px;max-width:70ch}
+.bridge .btn{border:1.5px solid var(--line);color:var(--navy)}
+.bridge .btn:hover{border-color:var(--navy)}
+
+/* ---------- appel final ---------- */
+.final{background:var(--navy);color:#fff;padding:112px 0}
+.final .inner{max-width:880px}
+.final h2{color:#fff;font-size:clamp(32px,3.6vw,48px)}
+.final p{color:rgba(255,255,255,.76);font-size:17.5px;margin-top:16px;max-width:52ch}
+.final .actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px;margin-top:36px}
+.final .btn-light{color:var(--garnet)}
+.final .btn-light:hover{background:var(--garnet-pale)}
+.final .link-light{color:#fff;font-weight:600;text-decoration:underline;text-decoration-color:rgba(255,255,255,.5);text-underline-offset:5px;text-decoration-thickness:1.5px}
+.final .link-light:hover{text-decoration-color:#fff}
+.final .note{width:100%;max-width:none;font-size:14px;color:rgba(255,255,255,.6);margin-top:4px}
+
+/* ---------- pied ---------- */
+.footer{background:var(--navy-deep);color:rgba(255,255,255,.75);padding:72px 0 36px;font-size:15px}
+.footer .cols{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px;padding-bottom:48px;border-bottom:1px solid rgba(255,255,255,.14)}
+.footer .logo{color:#fff}
+.footer .logo b{color:#fff}
+.footer .about{margin-top:16px;max-width:34ch;line-height:1.55}
+.footer h3{color:#fff;font-weight:600;font-size:14px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:16px}
+.footer ul{list-style:none;display:flex;flex-direction:column;gap:10px}
+.footer ul a:hover{color:#fff;text-decoration:underline;text-underline-offset:3px}
+.footer .bottom{display:flex;justify-content:space-between;gap:20px;padding-top:24px;font-size:13.5px;color:rgba(255,255,255,.5);flex-wrap:wrap}
+
+/* ---------- mouvement ---------- */
+.js .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.js .reveal.in{opacity:1;transform:none}
+.js .hero-copy > *{opacity:0;transform:translateY(14px);animation:rise .7s var(--ease) forwards}
+.js .hero-copy > :nth-child(2){animation-delay:.08s}
+.js .hero-copy > :nth-child(3){animation-delay:.16s}
+.js .hero-copy > :nth-child(4){animation-delay:.24s}
+.js .hero-visual img{transform:scale(1.04);animation:settle 1.4s var(--ease) forwards}
+.js .hero-card{opacity:0;transform:translateY(16px);animation:rise .7s var(--ease) .5s forwards}
+@keyframes rise{to{opacity:1;transform:none}}
+@keyframes settle{to{transform:none}}
+@media (prefers-reduced-motion:reduce){
+  .js .reveal,.js .hero-copy > *,.js .hero-card{opacity:1;transform:none;animation:none;transition:none}
+  .js .hero-visual img{animation:none;transform:none}
+  html{scroll-behavior:auto}
+}
+
+/* ---------- responsive ---------- */
+@media (max-width:1100px){
+  .hero-grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+  .services-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .svc-feat{grid-row:auto;grid-column:1/-1}
+  .svc-feat .pic{aspect-ratio:21/9;min-height:0}
+  .kpi-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .kpis .wrap{grid-template-columns:1fr;gap:36px}
+  .profiles-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .process-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 28px}
+  .process-grid::before{display:none}
+  .quotes{grid-template-columns:1fr 1fr}
+  .quotes .quote:last-child{grid-column:1/-1}
+  .dom-list{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .faq .wrap{grid-template-columns:1fr;gap:28px}
+}
+@media (max-width:900px){
+  .nav-list,.nav-tel{display:none}
+  .nav-cta{gap:10px}
+  .nav .btn{padding-inline:14px;font-size:14px;min-height:40px}
+  .burger{display:grid;place-items:center}
+  .nav.open .nav-list{display:flex;flex-direction:column;gap:0;position:absolute;left:0;right:0;top:76px;background:#fff;border-bottom:1px solid var(--line);padding:8px 24px 16px}
+  .nav.open .nav-list a{display:block;padding:14px 0;border-bottom:1px solid var(--line-soft);font-size:17px}
+  .sec{padding:80px 0}
+  .sec-head{grid-template-columns:1fr;gap:16px;margin-bottom:40px}
+  .hero-grid{grid-template-columns:1fr;min-height:0}
+  .hero-copy{padding:56px var(--gutter) 40px;order:1}
+  .hero h1{max-width:none}
+  .hero-visual{order:2;min-height:0;aspect-ratio:4/3;margin:0 var(--gutter) 24px;border-radius:var(--r);overflow:hidden}
+  .hero-card{left:16px;right:16px;bottom:16px;border-radius:var(--r);max-width:none;padding:18px 20px}
+  .hero-card .big{font-size:36px}
+  .clients .wrap{grid-template-columns:1fr;gap:14px}
+  .clients ul{justify-content:flex-start;gap:8px 22px}
+  .clients li{font-size:16px}
+  .human .wrap{grid-template-columns:1fr;gap:40px}
+  .human figure .pic{aspect-ratio:4/3}
+  .plist li{grid-template-columns:1fr;gap:6px}
+  .steps{grid-template-columns:1fr}
+  .method-claim{grid-template-columns:1fr}
+  .sec-grid{grid-template-columns:1fr}
+  .case,.case.alt{grid-template-columns:1fr;gap:0}
+  .case.alt .pic{order:0}
+  .case .body,.case.alt .body{padding:26px 26px 30px}
+  .awards{grid-template-columns:1fr;gap:24px}
+  .awards ul{justify-content:flex-start;gap:36px}
+  .europe .wrap{grid-template-columns:1fr;gap:36px}
+  .offices li{grid-template-columns:1fr;gap:4px}
+  .bridge .wrap{grid-template-columns:1fr}
+  .footer .cols{grid-template-columns:1fr 1fr}
+}
+@media (max-width:600px){
+  body{font-size:16px}
+  .hero h1{font-size:clamp(34px,9.5vw,44px)}
+  .hero-actions{gap:14px}
+  .services-grid,.profiles-grid,.process-grid,.quotes,.dom-list,.kpi-list{grid-template-columns:1fr}
+  .quotes .quote:last-child{grid-column:auto}
+  .svc-feat .pic{aspect-ratio:4/3}
+  .prof .pic{aspect-ratio:4/3}
+  .footer .cols{grid-template-columns:1fr}
+  .case .facts{flex-wrap:wrap;gap:16px 24px}
+  .score{justify-self:start}
+}
+</style>
+</head>
+<body>
+
+<header class="nav" id="haut">
+  <div class="wrap">
+    <a class="logo" href="legal230-homepage.html" aria-label="Legal 230, accueil">LEGAL <b>230</b></a>
+    <nav aria-label="Navigation principale">
+      <ul class="nav-list">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#domaines">Expertises</a></li>
+        <li><a href="#methode">Méthode</a></li>
+        <li><a href="#securite">Sécurité</a></li>
+        <li><a href="legal230-a-propos.html">À propos</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <a class="nav-tel" href="tel:+33184802120">+33&nbsp;1&nbsp;84&nbsp;80&nbsp;21&nbsp;20</a>
+      <a class="btn btn-primary" href="legal230-contact.html">Demander un devis</a>
+      <button class="burger" aria-label="Ouvrir le menu" aria-expanded="false" type="button">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- ===== Héros ===== -->
+<section class="hero" aria-labelledby="h1">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <h1 id="h1">La traduction juridique, confiée à de <em>vrais experts</em> du droit.</h1>
+      <p class="lead">Vos contrats, actes et pièces sont traduits par des traducteurs experts de votre matière, anciens juristes ou avocats, dans plus de 230 langues, puis relus par un second expert.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="legal230-contact.html">Demander un devis <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+        <a class="btn btn-ghost" href="tel:+33184802120">Parler à un expert</a>
+      </div>
+      <ul class="trust" aria-label="Garanties">
+        <li><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg>Plus de 15 ans d'expertise juridique</li>
+        <li><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg>Plus de 230 langues</li>
+        <li><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg>Relecture par un second expert</li>
+        <li><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8.5l3 3 7-7"/></svg>ISO 27001 · données hébergées en France</li>
+      </ul>
+    </div>
+    <div class="hero-visual">
+      <img src="assets/proposition/hero-palais-justice-paris.jpg" srcset="assets/proposition/hero-palais-justice-paris-800.jpg 800w, assets/proposition/hero-palais-justice-paris.jpg 1600w" sizes="(min-width:901px) 45vw, 100vw" width="1600" height="2406" alt="La grille dorée du Palais de Justice de Paris, avec la flèche de la Sainte-Chapelle" fetchpriority="high">
+      <div class="hero-card">
+        <div class="big tabular">30<small>min</small></div>
+        <p><strong>Votre devis, à toute heure</strong>Envoyez vos documents : nous les chiffrons et vous répondons 24h/24, week-ends compris.</p>
+        <div class="rating">
+          <span class="stars" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg>
+          </span>
+          <span><strong class="tabular">4,9/5</strong> · 87 avis clients vérifiés</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Clients ===== -->
+<section class="clients" aria-label="Cabinets clients">
+  <div class="wrap">
+    <p class="lab">Ils nous confient leurs dossiers</p>
+    <ul>
+      <li>Clifford Chance</li><li>Linklaters</li><li>Freshfields</li><li>Gide</li><li>Bredin Prat</li><li>Dechert</li><li>Norton Rose Fulbright</li><li>Simmons &amp; Simmons</li><li>Pinsent Masons</li><li>White &amp; Case</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Services ===== -->
+<section class="sec services" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Tout ce dont un cabinet a besoin, au même endroit</h2>
+      <p class="intro">Manque de temps, langue rare, document officiel à produire, évènement international : nous avons la solution.</p>
+    </div>
+    <div class="services-grid">
+      <a class="svc svc-feat reveal" href="legal230-service-traduction-libre.html">
+        <div class="pic"><img src="assets/proposition/service-traduction.jpg" srcset="assets/proposition/service-traduction-600.jpg 600w, assets/proposition/service-traduction.jpg 1200w" sizes="(min-width:1101px) 384px, (min-width:601px) 90vw, 100vw" width="1200" height="800" alt="Un contrat relu à la main sur un bureau" loading="lazy"></div>
+        <h3>Traduction juridique</h3>
+        <p>Libre ou assermentée, par un traducteur expert de votre matière, dans plus de 230 langues. Mise en page conservée, lexique propre à votre projet, relecture par un second expert.</p>
+        <span class="more"><span class="u">En savoir plus</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+      <a class="svc reveal" href="legal230-service-interpretation.html">
+        <div class="pic"><img src="assets/proposition/service-interpretation.jpg" srcset="assets/proposition/service-interpretation-450.jpg 450w, assets/proposition/service-interpretation.jpg 900w" sizes="(min-width:1101px) 384px, (min-width:601px) 45vw, 100vw" width="900" height="600" alt="Réunion de travail autour d'une table" loading="lazy"></div>
+        <h3>Interprétation</h3>
+        <p>Simultanée, consécutive ou chuchotage, sur site ou à distance, par des interprètes experts en droit.</p>
+        <span class="more"><span class="u">En savoir plus</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+      <a class="svc reveal" href="legal230-service-legalisation.html">
+        <div class="pic"><img src="assets/proposition/service-legalisation.jpg" srcset="assets/proposition/service-legalisation-450.jpg 450w, assets/proposition/service-legalisation.jpg 900w" sizes="(min-width:1101px) 384px, (min-width:601px) 45vw, 100vw" width="900" height="1350" alt="Signature d'un document officiel" loading="lazy"></div>
+        <h3>Légalisation</h3>
+        <p>Apostille, légalisation CCI ou MAE/Consulat : nous certifions vos documents pour l'étranger.</p>
+        <span class="more"><span class="u">En savoir plus</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+      <a class="svc reveal" href="legal230-service-mise-a-jour.html">
+        <div class="pic"><img src="assets/proposition/service-relecture.jpg" srcset="assets/proposition/service-relecture-450.jpg 450w, assets/proposition/service-relecture.jpg 900w" sizes="(min-width:1101px) 384px, (min-width:601px) 45vw, 100vw" width="900" height="540" alt="Annotation d'un document imprimé" loading="lazy"></div>
+        <h3>Mise à jour &amp; relecture</h3>
+        <p>Révision et actualisation de vos documents déjà traduits, par un expert de votre domaine.</p>
+        <span class="more"><span class="u">En savoir plus</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+      <a class="svc reveal" href="legal230-service-transcription.html">
+        <div class="pic"><img src="assets/proposition/service-transcription.jpg" srcset="assets/proposition/service-transcription-450.jpg 450w, assets/proposition/service-transcription.jpg 900w" sizes="(min-width:1101px) 384px, (min-width:601px) 45vw, 100vw" width="900" height="600" alt="Casque audio posé près d'un ordinateur portable" loading="lazy"></div>
+        <h3>Transcription</h3>
+        <p>Retranscription fidèle de vos audiences, auditions et enregistrements, par des spécialistes du droit.</p>
+        <span class="more"><span class="u">En savoir plus</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Chiffres ===== -->
+<section class="kpis" aria-label="Legal 230 en chiffres">
+  <div class="wrap">
+    <div class="reveal">
+      <h2>Quinze ans de dossiers, en chiffres</h2>
+      <p class="intro" style="margin-top:12px">Des cabinets d'affaires aux offices notariaux, les professionnels du droit nous confient leurs documents les plus sensibles.</p>
+    </div>
+    <ul class="kpi-list reveal" aria-label="Chiffres clés">
+      <li class="kpi"><div class="n tabular">3&nbsp;000</div><p>traductions juridiques par an</p></li>
+      <li class="kpi"><div class="n tabular">2&nbsp;500<sup>+</sup></div><p>clients, tous professionnels du droit</p></li>
+      <li class="kpi"><div class="n tabular">1&nbsp;500<sup>+</sup></div><p>traducteurs experts dans votre domaine du droit</p></li>
+      <li class="kpi"><div class="n tabular">99,4<sup>%</sup></div><p>de clients satisfaits</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Expertise humaine ===== -->
+<section class="human" id="expertise">
+  <div class="wrap">
+    <figure class="reveal">
+      <div class="pic"><img src="assets/proposition/expertise-relecture.jpg" srcset="assets/proposition/expertise-relecture-500.jpg 500w, assets/proposition/expertise-relecture.jpg 1000w" sizes="(min-width:901px) 40vw, 100vw" width="1000" height="667" alt="Une traductrice relit un document imprimé" loading="lazy"></div>
+      <figcaption><strong>Relecture par un second expert</strong>Aucune traduction ne part sans la relecture d'un second traducteur spécialisé dans votre matière.</figcaption>
+    </figure>
+    <div class="reveal">
+      <h2>Une expertise juridique humaine, à chaque étape</h2>
+      <p class="lead">Derrière chaque traduction Legal 230, il y a un traducteur spécialisé dans votre domaine du droit, et la relecture d'un second expert. Sur un document à fort enjeu, c'est cette responsabilité humaine qui fait la différence.</p>
+      <ul class="plist">
+        <li><h3>Des traducteurs experts du droit</h3><p>Tous diplômés, beaucoup sont d'anciens juristes ou avocats. Chacun est testé sur deux domaines et deux langues avant d'intégrer notre base, et traduit uniquement vers sa langue maternelle.</p></li>
+        <li><h3>Spécialisés dans votre matière</h3><p>Arbitrage, fusions-acquisitions, droit social, fiscal, propriété intellectuelle : votre dossier est confié à un traducteur qui maîtrise la terminologie exacte de votre domaine, pas à un généraliste.</p></li>
+        <li><h3>Relecture systématique</h3><p>Chaque traduction est relue par un second traducteur expert. En cas de doute, nous reprenons la relecture sans frais, et relivrons en priorité.</p></li>
+      </ul>
+      <a class="btn btn-primary" href="#methode">Comment nous travaillons <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Méthode ===== -->
+<section class="method" id="methode">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>L'IA quand elle fait gagner du temps. L'humain, toujours, pour la qualité.</h2>
+      <p class="intro">Pour les forts volumes et les délais courts, notre IA juridique propriétaire Alan accélère le travail. Mais elle ne livre jamais seule : un traducteur expert relit et valide systématiquement chaque traduction.</p>
+    </div>
+    <ol class="steps" aria-label="Les trois étapes de notre méthode">
+      <li class="step reveal"><span class="ord">1</span><h3>Un traducteur expert de votre matière</h3><p>Le cerveau juridique de votre dossier : un spécialiste qui connaît votre domaine et votre terminologie, et constitue le lexique du projet.</p><span class="role">L'humain aux commandes</span></li>
+      <li class="step reveal"><span class="ord">2</span><h3>Alan accélère les volumes</h3><p>Pour les gros dossiers et les délais serrés, notre IA juridique, entraînée exclusivement sur le droit, pré-traduit et applique vos lexiques.</p><span class="role opt">Optionnel, selon le besoin</span></li>
+      <li class="step reveal"><span class="ord">3</span><h3>Relecture par un second expert</h3><p>Un second traducteur spécialisé relit, corrige et valide chaque traduction avant livraison.</p><span class="role">Systématique, jamais sautée</span></li>
+    </ol>
+    <div class="method-claim reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+      <div><p class="q">Alan ne livre jamais seul. Un traducteur expert valide chaque mot.</p><p>Vous gardez la précision terminologique, vous gagnez en rapidité.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Sécurité ===== -->
+<section class="security" id="securite">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Vos dossiers les plus sensibles, entre de bonnes mains</h2>
+      <p class="intro">La confidentialité n'est pas une option pour les professionnels du droit. Legal 230 applique les standards de sécurité les plus exigeants, à chaque étape de votre projet.</p>
+    </div>
+    <div class="sec-grid reveal">
+      <article>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8.5 12.5l2.5 2.5 5-5.5"/></svg>
+        <div><h3>ISO 17100</h3><p>La norme de la traduction professionnelle : traducteur qualifié, révision par un second linguiste et traçabilité complète du processus.</p></div>
+      </article>
+      <article>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>
+        <div><h3>ISO/IEC 27001 classe IV</h3><p>Sécurité de l'information : plateforme certifiée, données chiffrées et hébergées en France.</p></div>
+      </article>
+      <article>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v5c0 5-3.5 8.5-7 10-3.5-1.5-7-5-7-10V6l7-3z"/></svg>
+        <div><h3>RGPD &amp; DPO dédié</h3><p>Référent DPO dédié, conformité RGPD et conservation des données limitée à 13 mois maximum.</p></div>
+      </article>
+      <article>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>
+        <div><h3>NDA sur demande</h3><p>En complément des NDA signés par toutes nos équipes, un accord de confidentialité propre à votre projet vous est fourni sur simple demande.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Métiers ===== -->
+<section class="sec profiles" id="metiers">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Une réponse adaptée à votre profession</h2>
+      <p class="intro">Vos enjeux ne sont pas les mêmes selon votre métier. Nos services s'organisent autour de vos besoins réels.</p>
+    </div>
+    <div class="profiles-grid">
+      <a class="prof reveal" href="legal230-metier-avocats.html">
+        <div class="pic"><img src="assets/proposition/metier-avocats.jpg" srcset="assets/proposition/metier-avocats-400.jpg 400w, assets/proposition/metier-avocats.jpg 800w" sizes="(min-width:1101px) 282px, (min-width:601px) 45vw, 100vw" width="800" height="1200" alt="Galerie voûtée d'un palais de justice" loading="lazy"></div>
+        <h3>Avocats</h3><p>Urgences, gros volumes, documents très techniques, langues rares et dossiers à fort enjeu.</p>
+        <span class="more"><span class="u">Voir les services</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+      <a class="prof reveal" href="legal230-metier-directions-juridiques.html">
+        <div class="pic"><img src="assets/proposition/metier-directions-juridiques.jpg" srcset="assets/proposition/metier-directions-juridiques-400.jpg 400w, assets/proposition/metier-directions-juridiques.jpg 800w" sizes="(min-width:1101px) 282px, (min-width:601px) 45vw, 100vw" width="800" height="533" alt="Réunion d'une direction juridique" loading="lazy"></div>
+        <h3>Directions juridiques</h3><p>Contrats multilingues, compliance et RGPD, statuts et KBIS pour vos filiales, besoins du CSE.</p>
+        <span class="more"><span class="u">Voir les services</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+      <a class="prof reveal" href="legal230-metier-notaires.html">
+        <div class="pic"><img src="assets/proposition/metier-notaires.jpg" srcset="assets/proposition/metier-notaires-400.jpg 400w, assets/proposition/metier-notaires.jpg 800w" sizes="(min-width:1101px) 282px, (min-width:601px) 45vw, 100vw" width="800" height="533" alt="Signature d'un acte chez le notaire" loading="lazy"></div>
+        <h3>Notaires</h3><p>Opérations immobilières internationales, successions, mariages et divorces internationaux, en traduction libre ou assermentée.</p>
+        <span class="more"><span class="u">Voir les services</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+      <a class="prof reveal" href="legal230-metier-commissaires-de-justice.html">
+        <div class="pic"><img src="assets/proposition/metier-commissaires-de-justice.jpg" srcset="assets/proposition/metier-commissaires-de-justice-400.jpg 400w, assets/proposition/metier-commissaires-de-justice.jpg 800w" sizes="(min-width:1101px) 282px, (min-width:601px) 45vw, 100vw" width="800" height="1200" alt="Étude d'un commissaire de justice" loading="lazy"></div>
+        <h3>Commissaires de justice</h3><p>Actes, significations et constats à dimension internationale, traduits puis légalisés selon la juridiction.</p>
+        <span class="more"><span class="u">Voir les services</span><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Domaines ===== -->
+<section class="domains" id="domaines">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Spécialisés dans chaque branche du droit</h2>
+      <p class="intro">Un traducteur n'est jamais affecté à un domaine qu'il ne maîtrise pas. Voici les matières que nous couvrons au quotidien.</p>
+    </div>
+    <ul class="dom-list reveal">
+      <li><a href="legal230-expertise-arbitrage-international.html">Arbitrage international<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-contentieux.html">Contentieux<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-droit-des-contrats.html">Droit des contrats<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-droit-des-societes.html">Droit des sociétés<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-droit-immobilier.html">Droit immobilier<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-droit-social.html">Droit social<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-droit-fiscal.html">Droit fiscal<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-propriete-intellectuelle.html">Propriété intellectuelle<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-banque-finance.html">Banque et finance<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-droit-public.html">Droit public<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-immigration-internationale.html">Immigration internationale<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+      <li><a href="legal230-expertise-droit-commercial.html">Droit commercial<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ===== Process ===== -->
+<section class="sec process" id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>De votre demande à la livraison, en toute simplicité</h2>
+      <p class="intro">Un process rodé, un interlocuteur dédié, et la qualité contrôlée à chaque étape.</p>
+    </div>
+    <ol class="process-grid" aria-label="Les quatre étapes d'un dossier">
+      <li class="pstep reveal"><span class="num">1</span><h3>Devis en 30 minutes</h3><p>Envoyez vos documents : nous les chiffrons et vous répondons en moins de 30 minutes, 24/7, week-ends inclus.</p></li>
+      <li class="pstep reveal"><span class="num">2</span><h3>Équipe dédiée</h3><p>Un traducteur expert de votre matière est affecté à votre dossier, avec un lexique propre à votre projet.</p></li>
+      <li class="pstep reveal"><span class="num">3</span><h3>Traduction et relecture</h3><p>Traduction puis relecture systématique par un second expert. Mise en page conservée à l'identique.</p></li>
+      <li class="pstep reveal"><span class="num">4</span><h3>Livraison et suivi</h3><p>Livraison dans les délais, retours éventuels sous 24 h, et correction sans frais en cas de besoin.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===== Cas concrets ===== -->
+<section class="cases" id="cas">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <h2>Ce que « à fort enjeu » veut dire</h2>
+      <p class="intro">Deux exemples représentatifs de dossiers que nous traitons pour des cabinets et des directions juridiques.</p>
+    </div>
+    <article class="case reveal">
+      <div class="pic"><img src="assets/proposition/cas-arbitrage.jpg" srcset="assets/proposition/cas-arbitrage-500.jpg 500w, assets/proposition/cas-arbitrage.jpg 1000w" sizes="(min-width:901px) 40vw, 100vw" width="1000" height="667" alt="Bibliothèque juridique ancienne" loading="lazy"></div>
+      <div class="body">
+        <h3>Un mémoire d'arbitrage sous délai contraint</h3>
+        <p>Un cabinet d'affaires devait produire un mémoire volumineux en anglais en cinq jours. Équipe dédiée de traducteurs spécialisés en arbitrage, lexique projet partagé et livraison échelonnée : délai tenu, terminologie homogène d'un bout à l'autre.</p>
+        <ul class="facts"><li><strong>5 jours</strong>délai tenu</li><li><strong>1 lexique</strong>partagé par l'équipe</li><li><strong>Arbitrage</strong>traducteurs spécialisés</li></ul>
+      </div>
+    </article>
+    <article class="case alt reveal">
+      <div class="pic"><img src="assets/proposition/cas-due-diligence.jpg" srcset="assets/proposition/cas-due-diligence-500.jpg 500w, assets/proposition/cas-due-diligence.jpg 1000w" sizes="(min-width:901px) 40vw, 100vw" width="1000" height="667" alt="Contrats étalés sur la table d'une salle de réunion" loading="lazy"></div>
+      <div class="body">
+        <h3>Une due diligence multilingue sous NDA renforcé</h3>
+        <p>La direction juridique d'un groupe coté faisait traduire les contrats d'une data room en français, anglais et allemand. Traitement sur plateforme ISO 27001, NDA spécifique et conservation limitée : confidentialité absolue, dossiers livrés dans les temps.</p>
+        <ul class="facts"><li><strong>3 langues</strong>français, anglais, allemand</li><li><strong>ISO 27001</strong>plateforme certifiée</li><li><strong>NDA</strong>propre au projet</li></ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ===== Avis ===== -->
+<section class="sec reviews" id="avis">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div>
+        <h2>La confiance des professionnels du droit</h2>
+        <p class="intro" style="margin-top:14px">Des avis authentifiés par Trustfolio, auprès des cabinets et directions juridiques qui nous confient leurs dossiers.</p>
+      </div>
+      <div class="score">
+        <div class="n tabular">4,9<small>/5</small></div>
+        <p><span class="stars" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l3 7h7l-5.5 4.5L18.5 22 12 17.5 5.5 22l2-8.5L2 9h7z"/></svg></span><br>87 avis clients vérifiés<br><a class="inline" href="https://www.trustfolio.co/" rel="noopener">Voir sur Trustfolio</a></p>
+      </div>
+    </div>
+    <div class="quotes">
+      <article class="quote reveal">
+        <blockquote>« La terminologie d'arbitrage est maîtrisée à la perfection, et les délais sont tenus même sur nos mémoires les plus volumineux. »</blockquote>
+        <footer><p class="who"><strong>Avocat associé</strong>Arbitrage international · cabinet d'affaires</p></footer>
+      </article>
+      <article class="quote reveal">
+        <blockquote>« Un interlocuteur dédié, une réponse en quelques minutes et une qualité constante. C'est devenu notre partenaire traduction par défaut. »</blockquote>
+        <footer><p class="who"><strong>Directrice juridique</strong>Groupe coté · CAC 40</p></footer>
+      </article>
+      <article class="quote reveal">
+        <blockquote>« Traductions assermentées impeccables pour nos dossiers de succession internationale, et une vraie réactivité sur les légalisations. »</blockquote>
+        <footer><p class="who"><strong>Notaire</strong>Office notarial · opérations internationales</p></footer>
+      </article>
+    </div>
+    <div class="awards reveal">
+      <p>Une expertise reconnue par le secteur</p>
+      <ul>
+        <li><img src="assets/distinctions/decideurs-trim.png" width="332" height="282" alt="Décideurs · classement Incontournables en traduction juridique" loading="lazy"></li>
+        <li><img src="assets/distinctions/slator-badge.png" width="650" height="450" alt="Slator Index · Boutique 2026" loading="lazy"></li>
+        <li><img src="assets/distinctions/ai-legal-awards-trim.png" width="236" height="258" alt="AI Legal Awards · Legal Translation Experts" loading="lazy"></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Europe ===== -->
+<section class="europe" id="europe">
+  <div class="wrap">
+    <div class="pic reveal"><img src="assets/proposition/europe-paris.jpg" srcset="assets/proposition/europe-paris-600.jpg 600w, assets/proposition/europe-paris.jpg 1200w" sizes="(min-width:901px) 50vw, 100vw" width="1200" height="800" alt="L'avenue de la Grande Armée vers La Défense, vue depuis l'Arc de Triomphe" loading="lazy"></div>
+    <div class="reveal">
+      <h2>Là où se traite le droit des affaires</h2>
+      <p class="intro">Quatre bureaux, un réseau de plus de 1 500 traducteurs experts, et une capacité à intervenir dans plus de 230 langues, en traduction libre comme assermentée.</p>
+      <ul class="offices">
+        <li><span class="city">Paris</span><span class="addr">75 boulevard Haussmann, 75008</span><a href="tel:+33184802120">+33 1 84 80 21 20</a></li>
+        <li><span class="city">Londres</span><span class="addr">18 Soho Square, W1D 3QL</span><a href="tel:+442081642635">+44 20 8164 2635</a></li>
+        <li><span class="city">Bruxelles</span><span class="addr">130 Cours Saint-Michel, 1040</span><a href="tel:+3228084992">+32 2 808 49 92</a></li>
+        <li><span class="city">Luxembourg</span><span class="addr">Au cœur du quartier d'affaires</span><a href="mailto:brussels@legal230.com">brussels@legal230.com</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="wrap">
+    <div class="reveal">
+      <h2>Tout ce qu'un professionnel du droit doit savoir</h2>
+      <p class="intro" style="margin-top:14px">Les questions que l'on nous pose avant un premier dossier.</p>
+    </div>
+    <div class="reveal">
+      <details><summary>Vos traducteurs sont-ils réellement spécialisés en droit ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></summary><p class="ans">Oui. Tous nos traducteurs sont diplômés et beaucoup sont d'anciens juristes ou avocats. Chacun est testé sur deux domaines et deux langues avant d'intégrer notre réseau, traduit uniquement vers sa langue maternelle, et n'est affecté qu'aux matières qu'il maîtrise.</p></details>
+      <details><summary>Proposez-vous des traductions assermentées ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></summary><p class="ans">Oui. Nous réalisons des traductions assermentées par des traducteurs experts près les Cours d'appel, avec envoi d'une version avant assermentation et, si besoin, légalisation (Apostille, CCI, MAE/Consulat) selon la juridiction concernée.</p></details>
+      <details><summary>Comment garantissez-vous la confidentialité de mes documents ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></summary><p class="ans">Plateforme certifiée ISO/IEC 27001, données chiffrées et hébergées en France, authentification à double facteur, NDA systématique pour tous nos salariés et traducteurs (et NDA spécifique à votre projet sur demande), DPO dédié et conservation limitée à 13 mois maximum.</p></details>
+      <details><summary>Quels sont vos délais, même pour de gros volumes ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></summary><p class="ans">Nous répondons à toute demande de devis en moins de 30 minutes, 24/7, week-ends inclus. Pour les forts volumes, notre IA juridique Alan accélère le travail, toujours suivie d'une relecture par un traducteur expert : nous tenons des délais courts sans jamais sacrifier la qualité.</p></details>
+      <details><summary>Utilisez-vous l'intelligence artificielle ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></summary><p class="ans">Uniquement comme accélérateur. Notre IA juridique propriétaire Alan, entraînée exclusivement sur le droit, peut pré-traduire les gros volumes, mais elle ne livre jamais seule : un traducteur expert relit et valide systématiquement chaque traduction.</p></details>
+      <details><summary>Comment obtenir un devis ?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></summary><p class="ans">Envoyez-nous vos documents via le formulaire ou votre portail client : vous recevez un devis personnalisé et gratuit en moins de 30 minutes. Pour les dossiers volumineux, nous proposons des traductions de test gratuites afin de vous permettre de choisir votre équipe.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Passerelle Lexa ===== -->
+<section class="bridge" aria-label="Lexa, traduction en autonomie">
+  <div class="wrap">
+    <div>
+      <h3>Besoin de traduire au quotidien, en self-service ?</h3>
+      <p>Pour vos traductions juridiques en autonomie, découvrez Lexa, notre solution de traduction par IA. Et quand un dossier engage votre responsabilité, l'agence Legal 230 prend le relais avec ses traducteurs experts.</p>
+    </div>
+    <a class="btn" href="https://lexamt.com/" rel="noopener">Découvrir Lexa <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+  </div>
+</section>
+
+<!-- ===== Appel final ===== -->
+<section class="final" id="devis">
+  <div class="wrap"><div class="inner">
+    <div class="reveal">
+      <h2>Un document à traduire ? Recevez votre devis en 30 minutes.</h2>
+      <p>Confiez votre dossier à un traducteur expert de votre matière. Réponse rapide, qualité garantie, confidentialité absolue.</p>
+    </div>
+    <div class="actions reveal">
+      <a class="btn btn-light" href="legal230-contact.html">Demander un devis <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 8h10M9 4l4 4-4 4"/></svg></a>
+      <a class="link-light" href="tel:+33184802120">Parler à un expert</a>
+      <p class="note">Réponse en 30 min · 24/7, week-ends inclus · plus de 230 langues</p>
+    </div>
+  </div></div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <a class="logo" href="#haut">LEGAL <b>230</b></a>
+        <p class="about">Première agence européenne de traduction et d'interprétation 100 % juridiques. Paris, Londres, Bruxelles, Luxembourg.</p>
+      </div>
+      <div><h3>Services</h3><ul><li><a href="legal230-service-traduction-libre.html">Traduction libre</a></li><li><a href="legal230-service-traduction-certifiee.html">Traduction assermentée</a></li><li><a href="legal230-service-interpretation.html">Interprétation</a></li><li><a href="legal230-service-legalisation.html">Légalisation</a></li><li><a href="legal230-service-transcription.html">Transcription</a></li></ul></div>
+      <div><h3>Métiers</h3><ul><li><a href="legal230-metier-avocats.html">Avocats</a></li><li><a href="legal230-metier-directions-juridiques.html">Directions juridiques</a></li><li><a href="legal230-metier-notaires.html">Notaires</a></li><li><a href="legal230-metier-commissaires-de-justice.html">Commissaires de justice</a></li></ul></div>
+      <div><h3>Legal 230</h3><ul><li><a href="legal230-a-propos.html">À propos</a></li><li><a href="legal230-technologie-alan.html">Alan, notre IA juridique</a></li><li><a href="legal230-technologie-securite.html">Sécurité et conformité</a></li><li><a href="legal230-blog.html">Blog</a></li><li><a href="legal230-contact.html">Contact</a></li></ul></div>
+    </div>
+    <div class="bottom">
+      <p>© 2026 Legal 230 · 75 boulevard Haussmann, 75008 Paris</p>
+      <p><a href="legal230-mentions-legales.html">Mentions légales</a> · <a href="legal230-politique-confidentialite.html">Confidentialité</a></p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var html=document.documentElement; if(!/[?&]static/.test(location.search)) html.classList.add('js');
+  var sg=/[?&]seg=(\d+)/.exec(location.search); if(sg){html.style.scrollBehavior='auto';window.scrollTo(0,parseInt(sg[1],10)*16000);}
+  // entrée unique par section
+  var calm=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var els=document.querySelectorAll('.reveal');
+  if(calm||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});}
+  else{
+    var io=new IntersectionObserver(function(entries){entries.forEach(function(en){if(en.isIntersecting){en.target.classList.add('in');io.unobserve(en.target);}});},{rootMargin:'0px 0px -8% 0px',threshold:.08});
+    els.forEach(function(e){io.observe(e);});
+  }
+  // menu mobile
+  var nav=document.querySelector('.nav'),btn=document.querySelector('.burger');
+  btn.addEventListener('click',function(){var o=nav.classList.toggle('open');btn.setAttribute('aria-expanded',o?'true':'false');btn.setAttribute('aria-label',o?'Fermer le menu':'Ouvrir le menu');});
+  nav.querySelectorAll('.nav-list a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');btn.setAttribute('aria-expanded','false');});});
+})();
+</script>
+</body>
+</html>
